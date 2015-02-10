@@ -9,12 +9,3 @@
 # emul-linux-x86 packages, and make sure they're committed first :).
 =media-libs/gst-plugins-base-0.10.36-r1
 =dev-util/cmake-3.0.0
-# required by app-office/libreoffice-4.3.5.2
-# required by @selected
-# required by @world (argument)
-# /etc/portage/package.mask:
-=app-text/poppler-0.29.0
-# required by app-misc/tracker-1.2.5
-# required by @__auto_slot_operator_replace_installed__ (argument)
-# /etc/portage/package.mask:
-=app-text/poppler-0.30.0

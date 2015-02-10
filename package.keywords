@@ -3,6 +3,4 @@ app-misc/powerline **
 # required by powerline (argument)
 =app-vim/powerline-vim-9999 **
 app-backup/snapper **
-app-editors/neovim **
 mail-client/geary **
-sys-apps/systemd-ui **

@@ -232,10 +232,11 @@ dev-db/soci sqlite boost postgres
 >=media-libs/gst-plugins-base-1.2.4-r1 alsa
 net-nds/openldap -berkdb
 app-misc/powerline tmux fonts vim zsh
-app-backup/snapper xattr
+app-backup/snapper -xattr
 net-misc/networkmanager-openvpn gtk
 sys-libs/glibc debug
 dev-libs/boost static-libs
+sys-boot/grub efi-64
 net-misc/networkmanager connection-sharing
 # required by dev-ruby/rdoc-4.1.2[ruby_targets_ruby22]
 # required by dev-lang/ruby-2.2.0[rdoc]
@@ -305,4 +306,20 @@ net-misc/networkmanager connection-sharing
 # required by @selected
 # required by @world (argument)
 >=media-libs/mesa-10.3.5-r1 gles2
-app-portage/layman sync-plugin-portage subversion mercurial g-sorcery bazaar
+virtual/ffmpeg threads
+# required by virtual/ffmpeg-9-r2[libav]
+# required by media-sound/mpd-0.19.6
+# required by @selected
+# required by @world (argument)
+=media-video/libav-9.17 threads
+# required by virtual/ffmpeg-9-r2[libav]
+# required by media-sound/mpd-0.19.6[ffmpeg]
+# required by @selected
+# required by @world (argument)
+=media-video/libav-11.2 threads
+sys-apps/accountsservice -ubuntu
+app-portage/layman subversion mercurial -darcs bazaar g-sorcery sync-plugin-portage
+# required by gnome-base/gnome-settings-daemon-3.14.2::elementary[ubuntu]
+# required by gnome-base/gnome-shell-3.14.3::gentoo
+# required by @__auto_slot_operator_replace_installed__ (argument)
+>=sys-apps/accountsservice-0.6.40 ubuntu

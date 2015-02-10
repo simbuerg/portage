@@ -1,5 +1,1 @@
 <=app-crypt/gnupg-1.4.18
->=app-text/poppler-0.16
->=virtual/ffmpeg-9
->=virtual/ffmpeg-9-r1
->=virtual/ffmpeg-9-r2
