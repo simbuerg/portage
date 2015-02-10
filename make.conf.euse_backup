@@ -1,0 +1,40 @@
+# These settings were set by the catalyst build script that automatically
+# built this stage.
+# Please consult /usr/share/portage/config/make.conf.example for a more
+# detailed example.
+CFLAGS="-march=native -fomit-frame-pointer -O2 -pipe"
+CXXFLAGS="${CFLAGS}"
+# WARNING: Changing your CHOST is not something that should be done lightly.
+# Please consult http://www.gentoo.org/doc/en/change-chost.xml before changing.
+CHOST="x86_64-pc-linux-gnu"
+# These are the USE flags that were used in addition to what is provided by the
+# profile used for building.
+USE="-gnome dbus cups truetype branding -qt4 theora gtk policykit vala \
+     cairo python jpeg gudev xcb pulseuadio udisks X aqua gstreamer \
+     -xine -consolekit systemd bindist mmx sse sse2 sse3 \
+     introspection keymap hwdb udev networkmanager gnome-keyring alsa"
+USE="-gnome dbus cups truetype branding -qt4 theora gtk policykit vala \
+     cairo python jpeg gudev xcb pulseuadio udisks X aqua gstreamer \
+     -xine -consolekit systemd bindist mmx sse sse2 sse3 \
+     introspection keymap hwdb udev networkmanager gnome-keyring alsa"
+USE="-gnome dbus cups truetype branding -qt4 theora gtk policykit vala \
+     cairo python jpeg gudev xcb pulseuadio udisks X aqua gstreamer \
+     -xine -consolekit systemd bindist mmx sse sse2 sse3 \
+     introspection keymap hwdb udev networkmanager gnome-keyring alsa"
+
+PORTDIR="/usr/portage"
+DISTDIR="${PORTDIR}/distfiles"
+PKGDIR="${PORTDIR}/packages"
+
+INPUT_DEVICES="evdev synaptics wacom"
+
+ACCEPT_KEYWORDS="~amd64"
+MAKEOPTS="-j2"
+FEATURES="cgroup news parallel-fetch"
+VIDEO_CARDS=intel
+LINGUAS="en de"
+GRUB_PLATFORMS="pc multiboot"
+
+SYNC="rsync://rsync.de.gentoo.org/gentoo-portage"
+GENTOO_MIRRORS="ftp://de-mirror.org/gentoo/ http://de-mirror.org/gentoo/ rsync://de-mirror.org/gentoo/ ftp://ftp.wh2.tu-dresden.de/pub/mirrors/gentoo http://gentoo.mneisen.org/ http://mirror.netcologne.de/gentoo/ ftp://mirror.netcologne.de/gentoo/ rsync://mirror.netcologne.de/gentoo/ rsync://mirror.opteamax.de/gentoo/ http://mirror.opteamax.de/gentoo/ http://linux.rz.ruhr-uni-bochum.de/download/gentoo-mirror/ ftp://ftp.halifax.rwth-aachen.de/gentoo/ http://ftp.halifax.rwth-aachen.de/gentoo/ rsync://ftp.halifax.rwth-aachen.de/gentoo/ ftp://sunsite.informatik.rwth-aachen.de/pub/Linux/gentoo ftp://ftp.spline.inf.fu-berlin.de/mirrors/gentoo/ http://ftp.spline.inf.fu-berlin.de/mirrors/gentoo/ ftp://ftp.tu-clausthal.de/pub/linux/gentoo/ ftp://ftp.uni-erlangen.de/pub/mirrors/gentoo http://ftp.uni-erlangen.de/pub/mirrors/gentoo ftp://ftp-stud.hs-esslingen.de/pub/Mirrors/gentoo/ rsync://ftp-stud.hs-esslingen.de/gentoo/ http://ftp-stud.hs-esslingen.de/pub/Mirrors/gentoo/ ftp://ftp.join.uni-muenster.de/pub/linux/distributions/gentoo ftp://ftp6.uni-muenster.de/pub/linux/distributions/gentoo ftp://ftp.ipv6.uni-muenster.de/pub/linux/distributions/gentoo"
+source /var/lib/layman/make.conf
