@@ -324,3 +324,9 @@ app-portage/layman subversion mercurial -darcs bazaar g-sorcery sync-plugin-port
 # required by gnome-base/gnome-shell-3.14.3::gentoo
 # required by @__auto_slot_operator_replace_installed__ (argument)
 >=sys-apps/accountsservice-0.6.40 ubuntu
+# required by media-gfx/gnome-photos-3.14.2::gentoo
+# required by gnome-base/gnome-extra-apps-3.14.0-r1::gentoo
+# required by gnome-base/gnome-3.14.0::gentoo[extras]
+# required by @selected
+# required by @world (argument)
+>=media-plugins/grilo-plugins-0.2.13 upnp-av
