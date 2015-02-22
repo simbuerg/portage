@@ -4,3 +4,6 @@ app-misc/powerline **
 =app-vim/powerline-vim-9999 **
 app-backup/snapper **
 mail-client/geary **
+sys-devel/llvm **
+sys-devel/clang **
+sys-devel/dragonegg **
