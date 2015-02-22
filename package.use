@@ -330,3 +330,13 @@ app-portage/layman subversion mercurial -darcs bazaar g-sorcery sync-plugin-port
 # required by @selected
 # required by @world (argument)
 >=media-plugins/grilo-plugins-0.2.13 upnp-av
+sys-apps/razercfg -qt
+# required by dev-lang/ruby-2.2.0-r1::gentoo
+# required by dev-ruby/test-unit-3.0.9-r1::gentoo[ruby_targets_ruby22]
+>=dev-ruby/power_assert-0.2.2 ruby_targets_ruby22
+# required by dev-lang/ruby-2.2.0-r1::gentoo
+# required by dev-ruby/test-unit-3.0.9-r1::gentoo[ruby_targets_ruby22]
+>=dev-ruby/minitest-5.5.1 ruby_targets_ruby22
+# required by dev-lang/ruby-2.2.0-r1::gentoo
+# required by dev-ruby/minitest-5.5.1::gentoo[ruby_targets_ruby22]
+>=dev-ruby/test-unit-3.0.9-r1 ruby_targets_ruby22
