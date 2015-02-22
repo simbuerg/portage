@@ -211,7 +211,7 @@ dev-qt/qtwebkit widgets
 mail-client/mutt sidebar smtp imap
 dev-qt/qtsql mysql
 app-emulation/docker btrfs lxc vim-syntax zsh-completion
-dev-util/perf unwind -slang
+dev-util/perf unwind -slang python
 dev-qt/qthelp compat
 dev-python/PyQt4 webkit
 sys-cluster/openmpi heterogeneous vt mpi-threads threads -fortran
