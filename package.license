@@ -1,6 +1,10 @@
->=www-client/google-chrome-32.0.1700.19_beta1:beta google-chrome
 >=dev-java/oracle-jdk-bin-1.7.0.45 Oracle-BCLA-JavaSE
 >=www-client/google-chrome-32.0.1700.77_p1-r1 google-chrome
 >=net-misc/teamviewer-8.0.20931 TeamViewer
 # required by skype (argument)
 >=net-im/skype-4.2.0.13 skype-4.0.0.7-copyright
+>=www-client/google-chrome-unstable-44.0.2376.0_p1 google-chrome
+# required by google-chrome-beta (argument)
+>=www-client/google-chrome-beta-43.0.2357.37_p1 google-chrome
+# required by mendeleydesktop (argument)
+>=sci-misc/mendeleydesktop-1.13.8 Mendeley-terms

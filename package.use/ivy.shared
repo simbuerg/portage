@@ -1,0 +1,468 @@
+>=x11-libs/gtk+-2.24.27-r1:2 abi_x86_32
+>=dev-libs/atk-2.14.0 abi_x86_32
+>=x11-libs/libXft-2.3.2 abi_x86_32
+>=dev-libs/libcroco-0.6.8-r1 abi_x86_32
+>=x11-libs/cairo-1.14.2 abi_x86_32
+>=x11-libs/pixman-0.32.6 abi_x86_32
+>=x11-libs/gdk-pixbuf-2.30.8 abi_x86_32
+>=dev-libs/lzo-2.08-r1 abi_x86_32
+>=x11-libs/pangox-compat-0.0.2-r1 abi_x86_32
+>=net-dns/libidn-1.30 abi_x86_32
+>=x11-libs/pango-1.36.8 abi_x86_32
+>=dev-libs/openssl-0.9.8z_p6:0.9.8 abi_x86_32
+>=media-libs/harfbuzz-0.9.40 abi_x86_32
+>=media-gfx/graphite2-1.2.4-r1 abi_x86_32
+>=gnome-base/librsvg-2.40.9 abi_x86_32
+>=dev-util/pkgconfig-0.28-r2 abi_x86_32
+>=virtual/mysql-5.6-r2 abi_x86_32
+>=x11-proto/xf86vidmodeproto-2.3.1-r1 abi_x86_32
+>=dev-libs/libpcre-8.36 abi_x86_32
+>=dev-qt/qtcore-4.8.6-r1:4 abi_x86_32
+>=x11-proto/dri2proto-2.8-r1 abi_x86_32
+>=x11-proto/xcb-proto-1.11 abi_x86_32 python_targets_python3_4
+>=dev-libs/libxml2-2.9.2 abi_x86_32
+>=media-libs/fontconfig-2.11.1-r2 abi_x86_32
+>=media-libs/libpng-1.6.16 abi_x86_32
+>=x11-proto/xf86bigfontproto-1.2.0-r1 abi_x86_32
+>=x11-libs/libxshmfence-1.2 abi_x86_32
+>=media-libs/freetype-2.5.5 abi_x86_32
+>=sys-apps/attr-2.4.47-r1 abi_x86_32
+>=net-libs/libasyncns-0.8-r3 abi_x86_32
+>=virtual/opengl-7.0-r1 abi_x86_32
+>=x11-proto/kbproto-1.0.6-r1 abi_x86_32
+>=dev-libs/libgpg-error-1.18 abi_x86_32
+>=dev-db/mariadb-10.0.17 abi_x86_32
+>=media-libs/gstreamer-0.10.36-r2:0.10 abi_x86_32
+>=x11-libs/libXxf86vm-1.1.4 abi_x86_32
+>=x11-libs/libICE-1.0.9 abi_x86_32
+>=dev-libs/libtasn1-4.4 abi_x86_32
+>=sys-apps/util-linux-2.26.1-r1 abi_x86_32
+>=dev-libs/nettle-2.7.1-r4 abi_x86_32
+>=x11-proto/compositeproto-0.4.2-r1 abi_x86_32
+>=virtual/libintl-0-r1 abi_x86_32
+>=media-libs/glu-9.0.0-r1 abi_x86_32
+>=dev-libs/openssl-1.0.2a abi_x86_32
+>=media-libs/libjpeg-turbo-1.4.0 abi_x86_32
+>=x11-proto/randrproto-1.4.1 abi_x86_32
+>=sys-devel/gettext-0.19.4 abi_x86_32
+>=dev-libs/libgcrypt-1.6.3 abi_x86_32
+>=media-libs/gst-plugins-base-0.10.36-r2:0.10 abi_x86_32
+>=dev-qt/qtwebkit-4.8.6-r1:4 abi_x86_32
+>=x11-libs/libXcursor-1.1.14 abi_x86_32
+>=sys-apps/tcp-wrappers-7.6.22-r1 abi_x86_32
+>=x11-proto/inputproto-2.3.1 abi_x86_32
+>=x11-libs/libSM-1.2.2-r1 abi_x86_32
+>=x11-libs/libXext-1.3.3 abi_x86_32
+>=x11-proto/videoproto-2.3.2 abi_x86_32
+>=x11-libs/libXtst-1.2.2 abi_x86_32
+>=virtual/pkgconfig-0-r1 abi_x86_32
+>=x11-proto/presentproto-1.0 abi_x86_32
+>=x11-libs/libpciaccess-0.13.3 abi_x86_32
+>=x11-libs/libXfixes-5.0.1 abi_x86_32
+>=media-libs/flac-1.3.1-r1 abi_x86_32
+>=x11-libs/libXau-1.0.8 abi_x86_32
+>=x11-proto/xproto-7.0.27 abi_x86_32
+>=x11-proto/damageproto-1.2.1-r1 abi_x86_32
+>=dev-libs/expat-2.1.0-r4 abi_x86_32
+>=sys-libs/readline-6.3_p8-r2 abi_x86_32
+>=x11-libs/libXinerama-1.1.3 abi_x86_32
+>=x11-libs/libxcb-1.11-r1 abi_x86_32
+>=net-print/cups-2.0.2-r1 abi_x86_32
+>=x11-proto/xineramaproto-1.2.1-r1 abi_x86_32
+>=virtual/libffi-3.0.13-r1 abi_x86_32
+>=x11-libs/libXScrnSaver-1.2.2-r1 abi_x86_32
+>=dev-libs/libffi-3.2.1 abi_x86_32
+>=x11-proto/glproto-1.4.17-r1 abi_x86_32
+>=x11-libs/libXdamage-1.1.4-r1 abi_x86_32
+>=dev-qt/qtgui-4.8.6-r2:4 abi_x86_32
+>=x11-libs/libXdmcp-1.1.2 abi_x86_32
+>=net-nds/openldap-2.4.40-r3 abi_x86_32
+>=dev-qt/qtxmlpatterns-4.8.6-r1:4 abi_x86_32
+>=sys-devel/llvm-3.6.0 abi_x86_32
+>=media-libs/phonon-4.8.3 designer
+>=dev-qt/qt3support-4.8.6-r1 abi_x86_32
+>=virtual/libiconv-0-r2 abi_x86_32
+>=app-arch/xz-utils-5.2.1 abi_x86_32
+>=x11-libs/libXcomposite-0.4.4-r1 abi_x86_32
+>=media-sound/pulseaudio-6.0 abi_x86_32
+>=media-libs/lcms-2.6-r1 abi_x86_32
+>=sys-libs/zlib-1.2.8-r1 abi_x86_32
+>=media-sound/mpg123-1.22.0 abi_x86_32
+>=x11-proto/xextproto-7.3.0 abi_x86_32
+>=dev-qt/qtdbus-4.8.6-r1:4 abi_x86_32
+>=dev-db/sqlite-3.8.8.3 abi_x86_32
+>=dev-qt/qtscript-4.8.6-r1:4 abi_x86_32
+>=x11-proto/renderproto-0.11.1-r1 abi_x86_32
+>=media-libs/harfbuzz-0.9.40 icu
+>=dev-libs/glib-2.42.2 abi_x86_32
+>=x11-libs/libXrender-0.9.8 abi_x86_32
+>=x11-proto/recordproto-1.14.2-r1 abi_x86_32
+>=media-libs/alsa-lib-1.0.29 abi_x86_32
+>=dev-qt/qtsql-4.8.6-r1:4 abi_x86_32
+>=dev-libs/libxslt-1.1.28-r4 abi_x86_32
+>=media-libs/libmng-2.0.2-r1 abi_x86_32
+>=x11-libs/libdrm-2.4.60 abi_x86_32
+>=dev-libs/gmp-6.0.0a abi_x86_32
+>=x11-proto/dri3proto-1.0 abi_x86_32
+>=virtual/jpeg-0-r2:0 abi_x86_32
+>=media-libs/mesa-10.5.2 abi_x86_32
+>=x11-libs/libXi-1.7.4 abi_x86_32
+>=sys-libs/gpm-1.20.7-r2 abi_x86_32
+>=media-libs/libsndfile-1.0.25-r1 abi_x86_32
+>=x11-proto/xf86driproto-2.1.1-r1 abi_x86_32
+>=sys-apps/dbus-1.8.16 abi_x86_32
+>=sys-libs/libcap-2.22-r2 abi_x86_32
+>=sys-apps/systemd-219-r2 abi_x86_32
+>=media-libs/tiff-4.0.3-r6 abi_x86_32
+>=app-arch/bzip2-1.0.6-r7 abi_x86_32
+>=sys-libs/ncurses-5.9-r3 abi_x86_32
+>=x11-libs/libXrandr-1.4.2 abi_x86_32
+>=net-libs/gnutls-3.3.12 abi_x86_32
+>=virtual/glu-9.0-r1 abi_x86_32
+>=dev-lang/orc-0.4.23 abi_x86_32
+>=dev-libs/json-c-0.12 abi_x86_32
+>=dev-libs/libpthread-stubs-0.3-r1 abi_x86_32
+>=x11-proto/scrnsaverproto-1.2.2-r1 abi_x86_32
+>=app-arch/lz4-0_p120 abi_x86_32
+>=media-libs/libvorbis-1.3.5 abi_x86_32
+>=x11-libs/libXv-1.0.10 abi_x86_32
+>=x11-proto/fixesproto-5.0-r1 abi_x86_32
+>=media-libs/libogg-1.3.2 abi_x86_32
+>=x11-libs/libX11-1.6.3 abi_x86_32
+>=virtual/libudev-215-r1 abi_x86_32
+>=dev-libs/icu-54.1-r1 abi_x86_32
+>=dev-lang/python-2.7.8:2.7 sqlite
+>=media-libs/gd-2.0.35-r4 fontconfig png jpeg truetype
+>=dev-libs/libxml2-2.9.2 python
+>=dev-python/numpy-1.9.0-r1 lapack
+>=x11-libs/gdk-pixbuf-2.30.8 jpeg
+>=dev-lang/python-3.3.5-r1:3.3 sqlite
+>=www-servers/apache-2.4.10-r1 apache2_modules_auth_digest
+>=sys-libs/zlib-1.2.8-r1 minizip
+>=media-gfx/imagemagick-6.8.9.8 jpeg png
+>=virtual/libgudev-215-r1 introspection
+>=dev-libs/libpfm-4.4.0 static-libs
+>=app-text/texlive-core-2013-r1 xetex
+>=net-libs/gtk-vnc-0.5.3 python
+>=dev-libs/elfutils-0.160 static-libs
+>=gnome-base/gnome-settings-daemon-3.12.3 policykit
+>=media-libs/gst-plugins-base-1.2.4-r1 theora
+=sys-devel/llvm-3.5.0 clang
+>=dev-libs/folks-0.10.0 eds
+>=media-libs/grilo-0.2.11 playlist
+dev-lang/R lapack perl png tiff
+sys-libs/zlib minizip static-libs
+dev-lang/ghc llvm
+dev-vcs/git subversion
+sys-block/gparted btrfs
+>=media-libs/gd-2.0.35-r3 fontconfig png
+media-plugins/gst-plugins-meta aac alsa dvd flac ogg opus pulseaudio mp3 vorbis wavpack x264
+gnome-base/gvfs mtp fuse samba
+media-gfx/imagemagick png
+media-libs/imlib2 X bzip2 nls png zlib -doc gif jpeg mmx mp3 -static-libs tiff
+x11-themes/qtcurve aqua qt5
+sys-devel/llvm clang gold udis86
+x11-misc/nitrogen xinerama
+dev-lang/python sqlite
+x11-libs/libxcb xkb
+sys-apps/systemd gcrypt lzma xattr
+app-text/texlive-core xetex
+x11-terms/rxvt-unicode alt-font-width -blink -buffer-on-clear -fading-colors focused-urgency font-styles mousewheel perl startup-notification unicode3 xft 256-color -vanilla
+app-editors/vim lua luajit python ruby acl perl
+xfce-base/thunar exif libnotify
+xfce-base/xfwm4 -startup-notification
+xfce-extra/xfce4-sensors-plugin lm_sensors
+>=dev-python/numpy-1.8.1 lapack
+dev-python/ipython notebook matplotlib nbconvert qt4
+sys-devel/distcc avahi
+dev-db/mariadb extraengine
+=sys-devel/distcc-3.1-r9 nocompat
+dev-libs/elfutils static-libs
+media-libs/mesa gbm
+x11-base/xorg-server xvfb glamor
+dev-vcs/subversion perl -dso
+dev-qt/qtmultimedia -alsa
+dev-qt/qtwebkit widgets
+mail-client/mutt sidebar smtp imap
+dev-qt/qtsql mysql
+app-emulation/docker btrfs lxc vim-syntax zsh-completion
+dev-util/perf unwind -slang python
+dev-qt/qthelp compat
+dev-python/PyQt4 webkit
+sys-cluster/openmpi heterogeneous vt mpi-threads threads -fortran
+dev-libs/libpcre pcre16
+dev-lang/php gd curl
+app-emulation/wine pipelight staging
+dev-libs/libpfm static-libs
+dev-libs/papi rapl
+dev-db/soci sqlite boost postgres
+net-nds/openldap -berkdb
+sys-libs/glibc debug
+dev-libs/boost static-libs
+net-misc/networkmanager connection-sharing
+>=media-libs/cogl-1.18.2-r1 gles2
+>=media-libs/clutter-1.20.0 egl
+>=media-libs/mesa-10.3.5-r1 gles2
+virtual/ffmpeg threads
+sys-apps/accountsservice -ubuntu
+app-portage/layman subversion mercurial -darcs bazaar g-sorcery sync-plugin-portage
+>=media-plugins/grilo-plugins-0.2.13 upnp-av
+dev-java/icedtea-bin webstart
+>=sys-libs/ntdb-1.0-r1 python
+>=sys-libs/tevent-0.9.24 python
+>=net-fs/samba-4.1.17 client
+>=sys-libs/tdb-1.3.4 python
+>=app-crypt/heimdal-1.5.3-r2 -ssl
+>=media-gfx/graphviz-2.38.0 python
+>=dev-qt/qtmultimedia-5.4.1 qml
+>=dev-qt/qtquickcontrols-5.4.1 widgets
+x11-misc/sddm -upower
+>=dev-qt/qtwebkit-5.4.1 qml
+>=media-video/libav-11.3 threads
+>=dev-qt/qtscript-5.4.1 scripttools
+sys-apps/util-linux static-libs
+dev-libs/lzo static-libs
+media-video/vlc -svg
+>=dev-qt/qtwebkit-5.4.1 printsupport
+>=dev-util/kdevelop-9999 -cxx
+>=dev-qt/qtdeclarative-4.8.6-r1:4 webkit
+>=media-libs/phonon-9999 qt4
+>=sys-auth/polkit-qt-9999 qt4
+>=media-libs/phonon-vlc-9999 qt4
+dev-libs/libdusmenu-qt qt4
+app-crypt/qca qt4
+=sys-auth/polkit-qt-0.112.0-r1 qt4
+=media-libs/phonon-vlc-0.8.2 qt4
+=media-libs/phonon-4.8.3 qt4
+kde-plasma/libksysguard -processui
+kde-plasma/plasma-workspace -drkonqi
+net-misc/owncloud-client qt5
+kde-plasma/plasma-meta -bluetooth networkmanager
+>=kde-plasma/libksysguard-5.3.0 processui
+>=app-office/akonadi-server-1.13.0 qt4
+>=app-text/poppler-0.32.0 qt4
+>=media-plugins/alsa-plugins-1.0.29 abi_x86_32
+kde-apps/dolphin-plugins git subversion
+net-im/bitlbee libevent purple gnutls twitter skype otr
+app-emulation/libvirt qemu
+media-libs/phonon qt4
+sci-mathematics/rstudio server
+kde-frameworks/kwallet gpg
+sys-devel/gcc objc
+>=app-crypt/pinentry-0.9.4-r1 gnome-keyring
+>=x11-libs/libdrm-2.4.60 libkms
+>=x11-libs/fltk-1.3.3-r3 xft
+virtual/libc debug
+>=media-libs/gd-2.0.35-r4 fontconfig png jpeg truetype
+>=dev-libs/libxml2-2.9.2 python
+>=x11-libs/gdk-pixbuf-2.30.8 jpeg
+>=app-crypt/gcr-3.12.2 gtk
+>=sys-libs/zlib-1.2.8-r1 minizip
+>=media-gfx/imagemagick-6.8.9.8 jpeg png
+>=virtual/libgudev-215-r1 introspection
+>=dev-libs/libpfm-4.4.0 static-libs
+>=app-text/texlive-core-2013-r1 xetex
+>=net-libs/gtk-vnc-0.5.3 python
+>=media-libs/gst-plugins-base-1.2.4-r1 theora
+dev-lang/R lapack perl png tiff
+sys-libs/zlib minizip
+dev-lang/ghc llvm
+dev-vcs/git subversion
+sys-block/gparted btrfs
+>=media-libs/gd-2.0.35-r3 fontconfig png
+media-plugins/gst-plugins-meta aac alsa dvd flac ogg opus pulseaudio mp3 vorbis wavpack x264
+media-gfx/imagemagick png
+media-libs/imlib2 X bzip2 nls png zlib -doc gif jpeg mmx mp3 -static-libs tiff
+sys-devel/llvm clang gold udis86
+x11-misc/nitrogen xinerama
+dev-lang/python sqlite
+x11-libs/libxcb xkb
+sys-apps/systemd gcrypt lzma xattr
+app-text/texlive-core xetex
+x11-terms/rxvt-unicode alt-font-width -blink -buffer-on-clear -fading-colors focused-urgency font-styles mousewheel perl startup-notification unicode3 xft 256-color -vanilla
+app-editors/vim lua luajit python ruby acl perl
+app-editors/gvim lua luajit python ruby acl perl gtk
+dev-python/numpy lapack
+dev-python/ipython notebook matplotlib
+sys-devel/distcc avahi
+dev-db/mariadb extraengine
+=sys-devel/distcc-3.1-r9 nocompat
+dev-libs/elfutils static-libs
+media-libs/mesa gbm
+x11-base/xorg-server glamor
+dev-vcs/subversion perl -dso
+dev-qt/qtmultimedia -alsa
+x11-libs/cairo gles2 gallium qt4 drm xlib-xcb
+dev-qt/qtwebkit widgets
+mail-client/mutt sidebar smtp imap
+dev-qt/qtsql mysql
+app-emulation/docker btrfs lxc vim-syntax zsh-completion
+dev-util/perf unwind -slang python
+dev-qt/qthelp compat
+dev-python/PyQt4 webkit
+sys-cluster/openmpi heterogeneous vt mpi-threads threads -fortran
+app-doc/doxygen dot -latex -qt4
+dev-libs/libpcre pcre16
+dev-lang/php gd curl
+app-emulation/wine pipelight staging
+dev-libs/libpfm static-libs
+dev-libs/papi rapl
+dev-db/soci sqlite boost postgres
+>=media-libs/gst-plugins-base-1.2.4-r1 alsa
+net-nds/openldap -berkdb
+app-backup/snapper -xattr
+sys-libs/glibc debug
+dev-libs/boost static-libs
+net-misc/networkmanager connection-sharing
+>=dev-ruby/racc-1.4.12 ruby_targets_ruby22
+>=dev-ruby/rake-10.4.2 ruby_targets_ruby22
+>=dev-ruby/json-1.8.1-r1 ruby_targets_ruby22
+>=virtual/rubygems-8 ruby_targets_ruby22
+>=dev-ruby/rubygems-2.4.5 ruby_targets_ruby22
+>=media-libs/cogl-1.18.2-r1 gles2
+>=media-libs/clutter-1.20.0 egl
+>=dev-ruby/rdoc-4.1.2 ruby_targets_ruby22
+>=media-libs/mesa-10.3.5-r1 gles2
+virtual/ffmpeg threads
+sys-apps/accountsservice -ubuntu
+app-portage/layman subversion mercurial -darcs bazaar g-sorcery sync-plugin-portage
+>=sys-apps/accountsservice-0.6.40 ubuntu
+>=media-plugins/grilo-plugins-0.2.13 upnp-av
+sys-apps/razercfg -qt
+>=dev-ruby/power_assert-0.2.2 ruby_targets_ruby22
+>=dev-ruby/minitest-5.5.1 ruby_targets_ruby22
+>=dev-ruby/test-unit-3.0.9-r1 ruby_targets_ruby22
+dev-java/icedtea-bin webstart
+>=sys-libs/ntdb-1.0-r1 python
+>=sys-libs/tevent-0.9.24 python
+>=media-plugins/grilo-plugins-0.2.13 tracker
+>=net-fs/samba-4.1.17 client
+>=sys-libs/tdb-1.3.4 python
+>=app-crypt/heimdal-1.5.3-r2 -ssl
+app-misc/tracker -eds
+>=media-libs/phonon-vlc-0.8.2 qt5
+>=media-libs/phonon-gstreamer-4.8.2 qt5
+>=sys-auth/polkit-qt-0.112.0-r1 qt5
+>=media-gfx/graphviz-2.38.0 python
+>=media-libs/phonon-4.8.3 qt5
+>=dev-qt/qtcore-5.4.1 icu
+>=app-text/poppler-0.32.0 qt5
+>=dev-qt/qtmultimedia-5.4.1 qml
+>=dev-qt/qtquickcontrols-5.4.1 widgets
+x11-misc/sddm -upower
+>=dev-qt/qtwebkit-5.4.1 qml
+>=media-video/libav-11.3 threads
+>=media-libs/mlt-0.9.0 -kde -qt4 ffmpeg melt
+>=app-crypt/qca-2.1.0.3 qt5
+>=dev-qt/qtscript-5.4.1 scripttools
+=kde-apps/kapptemplate-9999 test
+>=dev-lang/python-2.7.8:2.7 sqlite
+>=media-libs/gd-2.0.35-r4 fontconfig png jpeg truetype
+>=dev-libs/libxml2-2.9.2 python
+>=dev-python/numpy-1.9.0-r1 lapack
+>=x11-libs/gdk-pixbuf-2.30.8 jpeg
+>=dev-lang/python-3.3.5-r1:3.3 sqlite
+>=www-servers/apache-2.4.10-r1 apache2_modules_auth_digest
+>=sys-libs/zlib-1.2.8-r1 minizip
+>=media-gfx/imagemagick-6.8.9.8 jpeg png
+>=virtual/libgudev-215-r1 introspection
+>=dev-libs/libpfm-4.4.0 static-libs
+>=app-text/texlive-core-2013-r1 xetex
+>=net-libs/gtk-vnc-0.5.3 python
+>=dev-libs/elfutils-0.160 static-libs
+>=gnome-base/gnome-settings-daemon-3.12.3 policykit
+>=media-libs/gst-plugins-base-1.2.4-r1 theora
+=sys-devel/llvm-3.5.0 clang
+>=dev-libs/folks-0.10.0 eds
+>=media-libs/grilo-0.2.11 playlist
+dev-lang/R lapack perl png tiff
+sys-libs/zlib minizip static-libs
+dev-lang/ghc llvm
+dev-vcs/git subversion
+sys-block/gparted btrfs
+>=media-libs/gd-2.0.35-r3 fontconfig png
+media-plugins/gst-plugins-meta aac alsa dvd flac ogg opus pulseaudio mp3 vorbis wavpack x264
+gnome-base/gvfs mtp fuse samba
+media-gfx/imagemagick png
+media-libs/imlib2 X bzip2 nls png zlib -doc gif jpeg mmx mp3 -static-libs tiff
+x11-themes/qtcurve aqua kde qt5
+sys-devel/llvm clang gold udis86
+x11-misc/nitrogen xinerama
+dev-lang/python sqlite
+x11-libs/libxcb xkb
+sys-apps/systemd gcrypt lzma xattr
+app-text/texlive-core xetex
+x11-terms/rxvt-unicode alt-font-width -blink -buffer-on-clear -fading-colors focused-urgency font-styles mousewheel perl startup-notification unicode3 xft 256-color -vanilla
+app-editors/vim lua luajit python ruby acl perl
+xfce-base/thunar exif libnotify
+xfce-base/xfwm4 -startup-notification
+xfce-extra/xfce4-sensors-plugin lm_sensors
+>=dev-python/numpy-1.8.1 lapack
+dev-python/ipython notebook matplotlib
+sys-devel/distcc avahi
+dev-db/mariadb -extraengine
+=sys-devel/distcc-3.1-r9 nocompat
+dev-libs/elfutils static-libs
+media-libs/mesa gbm xvmc xa vdpau gles1
+x11-base/xorg-server xvfb glamor
+dev-vcs/subversion perl -dso
+dev-qt/qtmultimedia -alsa
+dev-qt/qtwebkit widgets
+mail-client/mutt sidebar smtp imap
+dev-qt/qtsql mysql
+app-emulation/docker btrfs lxc vim-syntax zsh-completion
+dev-util/perf unwind -slang python
+dev-qt/qthelp compat
+dev-python/PyQt4 webkit
+sys-cluster/openmpi -heterogeneous -vt mpi-threads threads -fortran -ipv6
+dev-libs/libpcre pcre16
+dev-lang/php gd curl
+app-emulation/wine pipelight staging
+dev-libs/libpfm static-libs
+dev-libs/papi rapl
+dev-db/soci sqlite boost postgres
+net-nds/openldap -berkdb -kerberos
+sys-libs/glibc debug
+dev-libs/boost static-libs
+net-misc/networkmanager connection-sharing
+>=media-libs/cogl-1.18.2-r1 gles2
+>=media-libs/clutter-1.20.0 egl
+>=media-libs/mesa-10.3.5-r1 gles2
+virtual/ffmpeg threads
+sys-apps/accountsservice -ubuntu
+app-portage/layman subversion mercurial -darcs bazaar g-sorcery sync-plugin-portage
+>=media-plugins/grilo-plugins-0.2.13 upnp-av
+dev-java/icedtea-bin webstart
+>=sys-libs/ntdb-1.0-r1 python
+>=sys-libs/tevent-0.9.24 python
+>=net-fs/samba-4.1.17 client
+>=sys-libs/tdb-1.3.4 python
+>=app-crypt/heimdal-1.5.3-r2 -ssl
+>=media-gfx/graphviz-2.38.0 python
+>=dev-qt/qtmultimedia-5.4.1 qml
+>=dev-qt/qtquickcontrols-5.4.1 widgets
+x11-misc/sddm -upower
+>=dev-qt/qtwebkit-5.4.1 qml
+>=media-video/libav-11.3 threads
+>=dev-qt/qtscript-5.4.1 scripttools
+sys-apps/util-linux static-libs
+dev-libs/lzo static-libs
+media-video/vlc -svg
+>=dev-qt/qtwebkit-5.4.1 printsupport
+>=dev-util/kdevelop-9999 -cxx
+>=dev-qt/qtdeclarative-4.8.6-r1:4 webkit
+>=media-libs/phonon-9999 qt4
+>=sys-auth/polkit-qt-9999 qt4
+>=media-libs/phonon-vlc-9999 qt4
+dev-libs/libdusmenu-qt qt4
+app-crypt/qca qt4
+dev-qt/qtgui:5 libinput -gles2 -egl evdev
+>=dev-libs/libdbusmenu-12.10.2-r2 gtk3
+=virtual/libmysqlclient-18 abi_x86_32
+=dev-db/mariadb-10.0.20-r1 client-libs
+>=media-libs/mesa-11.0.0_rc3 wayland
+>=dev-db/mariadb-10.0.21-r1 client-libs
+>=dev-libs/wayland-1.8.1 abi_x86_32
+dev-libs/openssl -kerberos
+net-fs/nfs-utils -kerberos
+dev-libs/libdbusmenu-qt qt4
