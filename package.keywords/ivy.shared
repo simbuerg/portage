@@ -1,0 +1,29 @@
+sys-fs/btrfs-progs **
+app-backup/snapper **
+# required by @kdevelop-live (argument)
+=dev-util/kdevelop-python-9999 **
+# required by @kdevelop-live (argument)
+=dev-util/kdevelop-php-docs-9999 **
+# required by @kdevelop-live (argument)
+=dev-util/kdevplatform-9999 **
+# required by @kdevelop-live (argument)
+=dev-util/kdevelop-go-9999 **
+# required by @kdevelop-live (argument)
+=dev-util/kdevelop-php-9999 **
+# required by @kdevelop-live (argument)
+=dev-util/kdevelop-valgrind-9999 **
+# required by @kdevelop-live (argument)
+=dev-util/kdevelop-css-9999 **
+# required by @kdevelop-live (argument)
+=dev-util/kdevelop-krazy2-9999 **
+# required by @kdevelop-live (argument)
+=dev-util/kdevelop-pg-qt-9999 **
+# required by @kdevelop-live (argument)
+=dev-util/kdevelop-cppcheck-9999 **
+# required by @kdevelop-live (argument)
+=dev-util/kdevelop-9999 **
+app-editors/kile:5 **
+app-editors/neovim-qt **
+dev-libs/msgpack **
+sys-apps/pkgcore **
+dev-python/snakeoil **

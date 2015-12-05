@@ -1,9 +1,0 @@
-app-misc/powerline **
-# required by app-misc/powerline-9999-r14::raiagent[vim]
-# required by powerline (argument)
-=app-vim/powerline-vim-9999 **
-app-backup/snapper **
-mail-client/geary **
-sys-devel/llvm **
-sys-devel/clang **
-sys-devel/dragonegg **
