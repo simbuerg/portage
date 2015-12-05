@@ -352,7 +352,6 @@ app-misc/tracker -eds
 x11-misc/sddm -upower
 >=dev-qt/qtwebkit-5.4.1 qml
 >=media-video/libav-11.3 threads
->=media-libs/mlt-0.9.0 -kde -qt4 ffmpeg kdenlive melt
 >=media-libs/mlt-0.9.0 -kde -qt4 ffmpeg melt
 >=app-crypt/qca-2.1.0.3 qt5
 >=dev-qt/qtscript-5.4.1 scripttools
@@ -401,7 +400,7 @@ xfce-extra/xfce4-sensors-plugin lm_sensors
 >=dev-python/numpy-1.8.1 lapack
 dev-python/ipython notebook matplotlib
 sys-devel/distcc avahi
-dev-db/mariadb -extraengine
+dev-db/mariadb extraengine
 =sys-devel/distcc-3.1-r9 nocompat
 dev-libs/elfutils static-libs
 media-libs/mesa gbm xvmc xa vdpau gles1
