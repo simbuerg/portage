@@ -1,6 +1,0 @@
-sys-fs/btrfs-progs **
-app-backup/snapper **
-app-editors/neovim-qt **
-dev-libs/msgpack **
-sys-apps/pkgcore **
-dev-python/snakeoil **
