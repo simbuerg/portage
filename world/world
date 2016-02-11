@@ -41,8 +41,6 @@ app-text/htmltidy
 app-text/sloccount
 app-text/xournal
 app-vim/rust-mode
-cross-i686-pc-mingw32/binutils
-cross-i686-pc-mingw32/w32api
 dev-cpp/gtest
 dev-db/pgadmin3
 dev-db/postgresql
@@ -111,7 +109,6 @@ dev-texlive/texlive-publishers
 dev-texlive/texlive-science
 dev-texlive/texlive-texinfo
 dev-util/buildbot-slave
-dev-util/cargo-bin
 dev-util/ccache
 dev-util/cgdb
 dev-util/cmake
