@@ -91,3 +91,32 @@ dev-java/icedtea-web nsplugin
 # required by kde-apps/libkexiv2-15.12.1::gentoo
 # required by @live-rebuild (argument)
 >=media-gfx/exiv2-0.25-r2 xmp
+# required by dev-libs/folks-0.11.2::gentoo[eds]
+# required by gnome-extra/gnome-contacts-3.18.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=gnome-extra/evolution-data-server-3.18.4 vala
+# required by media-sound/clementine-1.3_rc1::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libechonest-2.3.1 qt4
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/bitlbee-3.4.1::gentoo[skype]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtwebkit-4.8.7:4 -exceptions
+# required by dev-libs/sni-qt-0.2.6-r1::gentoo
+# required by net-im/skype-4.3.0.37-r6::gentoo[plasma]
+# required by net-im/bitlbee-3.4.1::gentoo[skype]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libdbusmenu-qt-0.9.3_pre20140619-r1 qt4
+# required by net-misc/gnome-online-miners-3.14.3-r2::gentoo
+# required by gnome-extra/gnome-documents-3.18.2-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libgdata-0.17.4-r1 gnome-online-accounts
+# required by app-emulation/docker-1.10.0::gentoo[seccomp]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/libseccomp-2.2.3 static-libs
