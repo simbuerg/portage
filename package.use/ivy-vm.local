@@ -1,6 +1,0 @@
-# required by media-libs/mesa-11.0.0_rc3::gentoo[vdpau]
-# required by x11-base/xorg-server-1.17.2-r1::gentoo[-minimal]
-# required by x11-drivers/nvidia-drivers-355.11::gentoo[X]
-# required by @selected
-# required by @world (argument)
->=x11-libs/libvdpau-1.1.1 abi_x86_32

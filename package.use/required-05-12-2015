@@ -1,4 +1,0 @@
->=gnome-extra/evolution-data-server-3.19.2 vala
->=dev-libs/libgdata-0.17.3 gnome
->=app-crypt/gcr-3.18.0 vala
->=app-misc/tracker-1.6.0 gstreamer
