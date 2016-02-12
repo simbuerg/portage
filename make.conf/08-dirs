@@ -1,0 +1,3 @@
+PORTDIR="/usr/portage"
+PKGDIR="/nfs/portage"
+DISTDIR="/var/tmp/portage/distfiles"

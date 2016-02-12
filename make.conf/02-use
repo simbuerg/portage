@@ -1,0 +1,3 @@
+USE_DISABLE="-aqua -debug -xine -consolekit -bindist -help -qt4 -kde4 -kde"
+USE_ENABLE="libav qt5 openmp xcb cairo pulseaudio dbus cups systemd mmx sse sse2 sse3 flac vorbis ogg lame X utf8 sync-plugin-portage libkms"
+USE="${USE_ENABLE} ${USE_DISABLE}"
