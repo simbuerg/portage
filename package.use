@@ -8,9 +8,11 @@
 >=app-arch/lz4-0_p120 abi_x86_32
 >=app-arch/xz-utils-5.2.1 abi_x86_32
 >=app-crypt/gcr-3.12.2 gtk
+>=app-crypt/gcr-3.18.0 vala
 >=app-crypt/heimdal-1.5.3-r2 -ssl
 >=app-crypt/pinentry-0.9.4-r1 gnome-keyring
 >=app-crypt/qca-2.1.0.3 qt5
+>=app-misc/tracker-1.6.0 gstreamer
 >=app-office/akonadi-server-1.13.0 qt4
 >=app-text/poppler-0.32.0 qt4
 >=app-text/poppler-0.32.0 qt5
@@ -31,11 +33,28 @@
 >=dev-libs/json-c-0.12 abi_x86_32
 >=dev-libs/libcroco-0.6.8-r1 abi_x86_32
 >=dev-libs/libdbusmenu-12.10.2-r2 gtk3
+>=dev-libs/libdbusmenu-qt-0.9.3_pre20140619-r1 abi_x86_32
+# required by dev-libs/sni-qt-0.2.6-r1::gentoo
+# required by net-im/skype-4.3.0.37-r6::gentoo[plasma]
+# required by net-im/bitlbee-3.4.1::gentoo[skype]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libdbusmenu-qt-0.9.3_pre20140619-r1 qt4
 >=dev-libs/libffi-3.2.1 abi_x86_32
 >=dev-libs/libgcrypt-1.6.3 abi_x86_32
+>=dev-libs/libgdata-0.17.3 gnome
+# required by net-misc/gnome-online-miners-3.14.3-r2::gentoo
+# required by gnome-extra/gnome-documents-3.18.2-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libgdata-0.17.4-r1 gnome-online-accounts
 >=dev-libs/libgpg-error-1.18 abi_x86_32
 >=dev-libs/libpcre-8.36 abi_x86_32
 >=dev-libs/libpfm-4.4.0 
+# required by dev-libs/papi-9999::ivy
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libpfm-4.6.0 static-libs
 >=dev-libs/libpthread-stubs-0.3-r1 abi_x86_32
 >=dev-libs/libtasn1-4.4 abi_x86_32
 >=dev-libs/libxml2-2.9.2 abi_x86_32
@@ -45,6 +64,7 @@
 >=dev-libs/nettle-2.7.1-r4 abi_x86_32
 >=dev-libs/openssl-0.9.8z_p6:0.9.8 abi_x86_32
 >=dev-libs/openssl-1.0.2a abi_x86_32
+>=dev-libs/sni-qt-0.2.6-r1 abi_x86_32
 >=dev-libs/wayland-1.8.1 abi_x86_32
 >=dev-python/numpy-1.8.1 lapack
 >=dev-python/numpy-1.9.0-r1 lapack
@@ -60,21 +80,104 @@
 >=dev-qt/qtscript-5.4.1 scripttools
 >=dev-qt/qtsql-4.8.6-r1:4 abi_x86_32
 >=dev-qt/qtwebkit-4.8.6-r1:4 abi_x86_32
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by net-im/bitlbee-3.4.1::gentoo[skype]
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtwebkit-4.8.7:4 -exceptions
 >=dev-qt/qtwebkit-5.4.1 printsupport
 >=dev-qt/qtwebkit-5.4.1 qml
 >=dev-qt/qtxmlpatterns-4.8.6-r1:4 abi_x86_32
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.2.4::gentoo
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
+>=dev-ruby/did_you_mean-1.0.0 ruby_targets_ruby23
 >=dev-ruby/json-1.8.1-r1 ruby_targets_ruby22
+# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.0.0_p648::gentoo[rdoc]
+# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.2.4::gentoo
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/racc-1.4.14::gentoo[ruby_targets_ruby23]
+>=dev-ruby/json-1.8.3 ruby_targets_ruby23
 >=dev-ruby/minitest-5.5.1 ruby_targets_ruby22
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.2.4::gentoo
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
+>=dev-ruby/minitest-5.8.3 ruby_targets_ruby23
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.2.4::gentoo
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
+>=dev-ruby/net-telnet-0.1.1-r1 ruby_targets_ruby23
 >=dev-ruby/power_assert-0.2.2 ruby_targets_ruby22
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.2.4::gentoo
+# required by dev-ruby/racc-1.4.14::gentoo[ruby_targets_ruby22]
+# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby22]
+# required by dev-lang/ruby-2.0.0_p648::gentoo[rdoc]
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby20]
+>=dev-ruby/power_assert-0.2.7 ruby_targets_ruby23
 >=dev-ruby/racc-1.4.12 ruby_targets_ruby22
+# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.0.0_p648::gentoo[rdoc]
+# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.2.4::gentoo
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/did_you_mean-1.0.0::gentoo[ruby_targets_ruby23]
+>=dev-ruby/racc-1.4.14 ruby_targets_ruby23
 >=dev-ruby/rake-10.4.2 ruby_targets_ruby22
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.2.4::gentoo
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
+>=dev-ruby/rake-10.4.2 ruby_targets_ruby23
 >=dev-ruby/rdoc-4.1.2 ruby_targets_ruby22
+# required by dev-lang/ruby-2.3.0::gentoo[rdoc]
+# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.2.4::gentoo
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
+>=dev-ruby/rdoc-4.2.1 ruby_targets_ruby23
 >=dev-ruby/rubygems-2.4.5 ruby_targets_ruby22
+# required by virtual/rubygems-11::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.0.0_p648::gentoo
+# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.2.4::gentoo
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/racc-1.4.14::gentoo[ruby_targets_ruby23]
+# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby22]
+# required by dev-lang/ruby-2.1.8::gentoo[rdoc]
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby21]
+>=dev-ruby/rubygems-2.5.1 ruby_targets_ruby23
 >=dev-ruby/test-unit-3.0.9-r1 ruby_targets_ruby22
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/racc-1.4.14::gentoo[ruby_targets_ruby23]
+# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby22]
+# required by dev-lang/ruby-2.0.0_p648::gentoo[rdoc]
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.2.4::gentoo
+# required by dev-ruby/rubygems-2.5.1::gentoo[ruby_targets_ruby22]
+# required by virtual/rubygems-11::gentoo[ruby_targets_ruby22]
+# required by dev-ruby/did_you_mean-1.0.0::gentoo[ruby_targets_ruby23,-test]
+>=dev-ruby/test-unit-3.1.5-r1 ruby_targets_ruby23
 >=dev-util/pkgconfig-0.28-r2 abi_x86_32
 >=gnome-base/gnome-settings-daemon-3.12.3 policykit
 >=gnome-base/librsvg-2.40.9 abi_x86_32
+# required by dev-libs/folks-0.11.2::gentoo[eds]
+# required by gnome-extra/gnome-contacts-3.18.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=gnome-extra/evolution-data-server-3.18.4 vala
 >=kde-plasma/libksysguard-5.3.0 processui
+# required by kde-apps/libkexiv2-15.12.1::gentoo
+# required by @live-rebuild (argument)
+>=media-gfx/exiv2-0.25-r2 xmp
 >=media-gfx/graphite2-1.2.4-r1 abi_x86_32
 >=media-gfx/graphviz-2.38.0 python
 >=media-gfx/imagemagick-6.8.9.8 jpeg png
@@ -95,6 +198,10 @@
 >=media-libs/harfbuzz-0.9.40 abi_x86_32
 >=media-libs/harfbuzz-0.9.40 icu
 >=media-libs/lcms-2.6-r1 abi_x86_32
+# required by media-sound/clementine-1.3_rc1::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libechonest-2.3.1 qt4
 >=media-libs/libjpeg-turbo-1.4.0 abi_x86_32
 >=media-libs/libmng-2.0.2-r1 abi_x86_32
 >=media-libs/libogg-1.3.2 abi_x86_32
@@ -133,8 +240,13 @@
 >=sys-auth/polkit-qt-0.112.0-r1 qt5
 >=sys-devel/gettext-0.19.4 abi_x86_32
 >=sys-devel/llvm-3.6.0 abi_x86_32
+>=sys-libs/binutils-libs-2.25.1-r1 abi_x86_32
 >=sys-libs/gpm-1.20.7-r2 abi_x86_32
 >=sys-libs/libcap-2.22-r2 abi_x86_32
+# required by app-emulation/docker-1.10.0::gentoo[seccomp]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/libseccomp-2.2.3 static-libs
 >=sys-libs/ncurses-5.9-r3 abi_x86_32
 >=sys-libs/ntdb-1.0-r1 python
 >=sys-libs/readline-6.3_p8-r2 abi_x86_32
@@ -151,6 +263,12 @@
 >=virtual/mysql-5.6-r2 abi_x86_32
 >=virtual/opengl-7.0-r1 abi_x86_32
 >=virtual/pkgconfig-0-r1 abi_x86_32
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby23,-test]
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.2.4::gentoo
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
+>=virtual/rubygems-11 ruby_targets_ruby23
 >=virtual/rubygems-8 ruby_targets_ruby22
 >=www-servers/apache-2.4.10-r1 apache2_modules_auth_digest
 >=x11-libs/cairo-1.14.2 abi_x86_32
@@ -176,10 +294,12 @@
 >=x11-libs/libXrender-0.9.8 abi_x86_32
 >=x11-libs/libXtst-1.2.2 abi_x86_32
 >=x11-libs/libXv-1.0.10 abi_x86_32
+>=x11-libs/libXvMC-1.0.9 abi_x86_32
 >=x11-libs/libXxf86vm-1.1.4 abi_x86_32
 >=x11-libs/libdrm-2.4.60 abi_x86_32
 >=x11-libs/libdrm-2.4.60 libkms
 >=x11-libs/libpciaccess-0.13.3 abi_x86_32
+>=x11-libs/libvdpau-1.1.1 abi_x86_32
 >=x11-libs/libxcb-1.11-r1 abi_x86_32
 >=x11-libs/libxshmfence-1.2 abi_x86_32
 >=x11-libs/pango-1.36.8 abi_x86_32
@@ -218,15 +338,19 @@ app-misc/tracker -eds
 app-portage/layman bazaar -darcs g-sorcery mercurial subversion sync-plugin-portage
 app-text/texlive-core xetex
 dev-db/mariadb -extraengine
+dev-db/postgresql -ldap -readline -server -ssl static-libs -xml -zlib
 dev-db/soci boost postgres sqlite
 dev-java/icedtea-bin webstart
+dev-java/icedtea-web nsplugin
 dev-lang/R lapack perl png tiff
 dev-lang/ghc llvm
 dev-lang/php curl gd
 dev-lang/python sqlite
+dev-libs/libgdata gnome introspection
 dev-libs/libpcre pcre16
 dev-libs/papi rapl
 dev-python/PyQt4 webkit
+dev-python/PyQt5 webkit
 dev-python/ipython nbconvert qt4
 dev-python/ipython matplotlib notebook
 dev-python/numpy lapack
@@ -236,6 +360,7 @@ dev-qt/qtsql mysql
 dev-util/perf python -slang unwind
 dev-vcs/git subversion
 dev-vcs/subversion -dso perl
+gnome-base/gnome-control-center networkmanager
 gnome-base/gvfs fuse mtp samba
 kde-apps/dolphin-plugins git subversion
 kde-frameworks/kwallet gpg
@@ -245,7 +370,8 @@ kde-plasma/plasma-workspace -drkonqi
 mail-client/mutt imap sidebar smtp
 media-gfx/imagemagick png
 media-libs/imlib2 X bzip2 -doc gif jpeg mp3 nls png tiff zlib
-media-libs/mesa gbm gles1 vdpau xa xvmc -llvm gallium i965
+media-libs/libmediaart -qt5
+media-libs/mesa gallium gbm gles1 -llvm vdpau xa xvmc
 media-libs/phonon qt4
 media-plugins/gst-plugins-meta aac alsa dvd flac mp3 ogg opus pulseaudio vorbis wavpack x264
 media-video/vlc -svg
@@ -262,8 +388,11 @@ sys-devel/distcc avahi
 sys-devel/gcc objc
 sys-devel/llvm clang gold udis86
 sys-libs/glibc debug
+sys-libs/ncurses static-libs
+sys-libs/zlib minizip
 virtual/ffmpeg threads
 x11-base/xorg-server glamor xvfb
+x11-drivers/xf86-video-intel xvmc
 x11-libs/cairo gles2 xlib-xcb
 x11-libs/libxcb xkb
 x11-misc/nitrogen xinerama
@@ -272,139 +401,3 @@ x11-themes/qtcurve aqua kde qt5
 xfce-base/thunar exif libnotify
 xfce-base/xfwm4 -startup-notification
 xfce-extra/xfce4-sensors-plugin lm_sensors
-# required by media-libs/mesa-11.0.0_rc3::gentoo[vdpau]
-# required by x11-base/xorg-server-1.17.2-r1::gentoo[-minimal]
-# required by x11-drivers/nvidia-drivers-355.11::gentoo[X]
-# required by @selected
-# required by @world (argument)
->=x11-libs/libvdpau-1.1.1 abi_x86_32
->=gnome-extra/evolution-data-server-3.19.2 vala
->=dev-libs/libgdata-0.17.3 gnome
->=app-crypt/gcr-3.18.0 vala
->=app-misc/tracker-1.6.0 gstreamer
->=dev-libs/libdbusmenu-qt-0.9.3_pre20140619-r1 abi_x86_32
->=dev-libs/sni-qt-0.2.6-r1 abi_x86_32
->=sys-libs/binutils-libs-2.25.1-r1 abi_x86_32
->=x11-libs/libXvMC-1.0.9 abi_x86_32
->=x11-libs/libvdpau-1.1.1 abi_x86_32
-dev-db/postgresql -ldap -readline -server -ssl static-libs -xml -zlib
-gnome-base/gnome-control-center networkmanager
-media-libs/libmediaart -qt5
-x11-drivers/xf86-video-intel xvmc
-sys-libs/ncurses static-libs
-# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby23,-test]
-# required by dev-lang/ruby-2.3.0::gentoo
-# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby23]
-# required by dev-lang/ruby-2.2.4::gentoo
-# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
->=virtual/rubygems-11 ruby_targets_ruby23
-# required by dev-lang/ruby-2.3.0::gentoo
-# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby23]
-# required by dev-lang/ruby-2.2.4::gentoo
-# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
->=dev-ruby/minitest-5.8.3 ruby_targets_ruby23
-# required by dev-lang/ruby-2.3.0::gentoo[rdoc]
-# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby23]
-# required by dev-lang/ruby-2.2.4::gentoo
-# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
->=dev-ruby/rdoc-4.2.1 ruby_targets_ruby23
-# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby23]
-# required by dev-lang/ruby-2.0.0_p648::gentoo[rdoc]
-# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby20]
-# required by dev-lang/ruby-2.2.4::gentoo
-# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
-# required by dev-lang/ruby-2.3.0::gentoo
-# required by dev-ruby/racc-1.4.14::gentoo[ruby_targets_ruby23]
->=dev-ruby/json-1.8.3 ruby_targets_ruby23
-# required by dev-lang/ruby-2.3.0::gentoo
-# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby23]
-# required by dev-lang/ruby-2.2.4::gentoo
-# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
->=dev-ruby/rake-10.4.2 ruby_targets_ruby23
-# required by virtual/rubygems-11::gentoo[ruby_targets_ruby23]
-# required by dev-lang/ruby-2.0.0_p648::gentoo
-# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby20]
-# required by dev-lang/ruby-2.2.4::gentoo
-# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
-# required by dev-lang/ruby-2.3.0::gentoo
-# required by dev-ruby/racc-1.4.14::gentoo[ruby_targets_ruby23]
-# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby22]
-# required by dev-lang/ruby-2.1.8::gentoo[rdoc]
-# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby21]
->=dev-ruby/rubygems-2.5.1 ruby_targets_ruby23
-# required by dev-lang/ruby-2.3.0::gentoo
-# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby23]
-# required by dev-lang/ruby-2.2.4::gentoo
-# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
->=dev-ruby/net-telnet-0.1.1-r1 ruby_targets_ruby23
-# required by dev-lang/ruby-2.3.0::gentoo
-# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby23]
-# required by dev-lang/ruby-2.2.4::gentoo
-# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
->=dev-ruby/did_you_mean-1.0.0 ruby_targets_ruby23
-# required by dev-lang/ruby-2.3.0::gentoo
-# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby23]
-# required by dev-lang/ruby-2.2.4::gentoo
-# required by dev-ruby/racc-1.4.14::gentoo[ruby_targets_ruby22]
-# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby22]
-# required by dev-lang/ruby-2.0.0_p648::gentoo[rdoc]
-# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby20]
->=dev-ruby/power_assert-0.2.7 ruby_targets_ruby23
-# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby23]
-# required by dev-lang/ruby-2.0.0_p648::gentoo[rdoc]
-# required by dev-ruby/test-unit-3.1.5-r1::gentoo[ruby_targets_ruby20]
-# required by dev-lang/ruby-2.2.4::gentoo
-# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby22]
-# required by dev-lang/ruby-2.3.0::gentoo
-# required by dev-ruby/did_you_mean-1.0.0::gentoo[ruby_targets_ruby23]
->=dev-ruby/racc-1.4.14 ruby_targets_ruby23
-# required by dev-lang/ruby-2.3.0::gentoo
-# required by dev-ruby/racc-1.4.14::gentoo[ruby_targets_ruby23]
-# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby22]
-# required by dev-lang/ruby-2.0.0_p648::gentoo[rdoc]
-# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby20]
-# required by dev-lang/ruby-2.2.4::gentoo
-# required by dev-ruby/rubygems-2.5.1::gentoo[ruby_targets_ruby22]
-# required by virtual/rubygems-11::gentoo[ruby_targets_ruby22]
-# required by dev-ruby/did_you_mean-1.0.0::gentoo[ruby_targets_ruby23,-test]
->=dev-ruby/test-unit-3.1.5-r1 ruby_targets_ruby23
-sys-libs/zlib minizip
-dev-python/PyQt5 webkit
-dev-libs/libgdata introspection gnome
-dev-java/icedtea-web nsplugin
-# required by kde-apps/libkexiv2-15.12.1::gentoo
-# required by @live-rebuild (argument)
->=media-gfx/exiv2-0.25-r2 xmp
-# required by dev-libs/folks-0.11.2::gentoo[eds]
-# required by gnome-extra/gnome-contacts-3.18.1::gentoo
-# required by @selected
-# required by @world (argument)
->=gnome-extra/evolution-data-server-3.18.4 vala
-# required by media-sound/clementine-1.3_rc1::gentoo
-# required by @selected
-# required by @world (argument)
->=media-libs/libechonest-2.3.1 qt4
-# required by net-im/skype-4.3.0.37-r6::gentoo
-# required by net-im/bitlbee-3.4.1::gentoo[skype]
-# required by @selected
-# required by @world (argument)
->=dev-qt/qtwebkit-4.8.7:4 -exceptions
-# required by dev-libs/sni-qt-0.2.6-r1::gentoo
-# required by net-im/skype-4.3.0.37-r6::gentoo[plasma]
-# required by net-im/bitlbee-3.4.1::gentoo[skype]
-# required by @selected
-# required by @world (argument)
->=dev-libs/libdbusmenu-qt-0.9.3_pre20140619-r1 qt4
-# required by net-misc/gnome-online-miners-3.14.3-r2::gentoo
-# required by gnome-extra/gnome-documents-3.18.2-r1::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-libs/libgdata-0.17.4-r1 gnome-online-accounts
-# required by app-emulation/docker-1.10.0::gentoo[seccomp]
-# required by @selected
-# required by @world (argument)
->=sys-libs/libseccomp-2.2.3 static-libs
-# required by dev-libs/papi-9999::ivy
-# required by @selected
-# required by @world (argument)
->=dev-libs/libpfm-4.6.0 static-libs

@@ -2,3 +2,4 @@
 # required by @selected
 # required by @world (argument)
 =dev-db/postgresql-9999 **
+=dev-util/cargo-bin-999 **
