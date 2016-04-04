@@ -272,3 +272,4 @@ x11-themes/qtcurve aqua kde qt5
 xfce-base/thunar exif libnotify
 xfce-base/xfwm4 -startup-notification
 xfce-extra/xfce4-sensors-plugin lm_sensors
+media-libs/libmediaart -qt5
