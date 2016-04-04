@@ -1,3 +1,0 @@
-CFLAGS="-march=core-avx-i -pipe -O2 -fomit-frame-pointer"
-CXXFLAGS="${CFLAGS}"
-CHOST="x86_64-pc-linux-gnu"

@@ -1,4 +1,0 @@
-ACCEPT_KEYWORDS="~amd64"
-MAKEOPTS="-j4 -l6"
-EMERGE_DEFAULT_OPTS="--buildpkg --keep-going --load-average 6 --jobs 6"
-

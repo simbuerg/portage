@@ -1,2 +1,0 @@
-INPUT_DEVICES="evdev synaptics wacom"
-VIDEO_CARDS="intel"
