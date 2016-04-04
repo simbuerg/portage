@@ -15,9 +15,6 @@ app-editors/neovim
 app-editors/vim
 app-editors/vim-core
 app-emulation/docker
-app-emulation/playonlinux
-app-emulation/wine
-app-emulation/winetricks
 app-laptop/tlp
 app-misc/ltunify
 app-misc/rlwrap
