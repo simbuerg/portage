@@ -237,8 +237,8 @@ dev-python/numpy lapack
 dev-qt/qthelp compat
 dev-qt/qtmultimedia -alsa
 dev-qt/qtsql mysql
-dev-util/perf python -slang unwind
-dev-vcs/git subversion
+dev-util/perf -python -slang unwind
+dev-vcs/git subversion -python -gtk
 dev-vcs/subversion -dso perl
 gnome-base/gvfs fuse mtp samba
 kde-apps/dolphin-plugins git subversion
@@ -255,7 +255,7 @@ media-plugins/gst-plugins-meta aac alsa dvd flac mp3 ogg opus pulseaudio vorbis 
 media-video/vlc -svg
 net-im/bitlbee gnutls libevent otr purple skype twitter
 net-misc/networkmanager connection-sharing
-net-misc/owncloud-client qt5
+net-misc/owncloud-client qt5 -dolphin
 net-nds/openldap -berkdb -kerberos static-libs
 sci-mathematics/rstudio server
 sys-apps/systemd gcrypt lzma
@@ -264,7 +264,7 @@ sys-block/gparted btrfs
 sys-cluster/openmpi -fortran -heterogeneous -ipv6 mpi-threads threads -vt
 sys-devel/distcc avahi
 sys-devel/gcc objc
-sys-devel/llvm clang gold udis86
+sys-devel/llvm clang gold udis86 lldb
 sys-libs/glibc debug
 virtual/ffmpeg threads
 x11-base/xorg-server glamor xvfb
