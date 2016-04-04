@@ -230,7 +230,7 @@ dev-libs/lzo static-libs
 dev-libs/papi rapl
 dev-python/PyQt4 webkit
 dev-python/ipython nbconvert qt4
-dev-python/ipython matplotlib notebook
+dev-python/ipython matplotlib -notebook
 dev-python/numpy lapack
 dev-qt/qthelp compat
 dev-qt/qtmultimedia -alsa
