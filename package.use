@@ -16,7 +16,6 @@
 >=app-text/poppler-0.32.0 qt5
 >=app-text/texlive-core-2013-r1 xetex
 >=dev-db/mariadb-10.0.17 abi_x86_32
->=dev-db/mariadb-10.0.21-r1 client-libs
 >=dev-db/sqlite-3.8.8.3 abi_x86_32
 >=dev-lang/orc-0.4.23 abi_x86_32
 >=dev-lang/python-2.7.8:2.7 sqlite
@@ -74,7 +73,6 @@
 >=dev-util/pkgconfig-0.28-r2 abi_x86_32
 >=gnome-base/gnome-settings-daemon-3.12.3 policykit
 >=gnome-base/librsvg-2.40.9 abi_x86_32
->=kde-plasma/libksysguard-5.3.0 processui
 >=media-gfx/graphite2-1.2.4-r1 abi_x86_32
 >=media-gfx/graphviz-2.38.0 python
 >=media-gfx/imagemagick-6.8.9.8 jpeg png
@@ -238,24 +236,22 @@ dev-qt/qthelp compat
 dev-qt/qtmultimedia -alsa
 dev-qt/qtsql mysql
 dev-util/perf -python -slang unwind
-dev-vcs/git subversion -python -gtk
+dev-vcs/git -gtk -python subversion
 dev-vcs/subversion -dso perl
 gnome-base/gvfs fuse mtp samba
 kde-apps/dolphin-plugins git subversion
 kde-frameworks/kwallet gpg
-kde-plasma/libksysguard -processui
 kde-plasma/plasma-meta -bluetooth networkmanager
-kde-plasma/plasma-workspace -drkonqi
 mail-client/mutt imap sidebar smtp
 media-gfx/imagemagick png
 media-libs/imlib2 X bzip2 -doc gif jpeg mp3 nls png -static-libs tiff zlib
-media-libs/mesa gbm gles1 vdpau xa xvmc -llvm gallium i965
+media-libs/mesa gallium gbm gles1 -llvm vdpau xa xvmc
 media-libs/phonon qt4
 media-plugins/gst-plugins-meta aac alsa dvd flac mp3 ogg opus pulseaudio vorbis wavpack x264
 media-video/vlc -svg
 net-im/bitlbee gnutls libevent otr purple skype twitter
 net-misc/networkmanager connection-sharing
-net-misc/owncloud-client qt5 -dolphin
+net-misc/owncloud-client -dolphin qt5
 net-nds/openldap -berkdb -kerberos static-libs
 sci-mathematics/rstudio server
 sys-apps/systemd gcrypt lzma
@@ -264,7 +260,7 @@ sys-block/gparted btrfs
 sys-cluster/openmpi -fortran -heterogeneous -ipv6 mpi-threads threads -vt
 sys-devel/distcc avahi
 sys-devel/gcc objc
-sys-devel/llvm clang gold udis86 lldb
+sys-devel/llvm clang gold lldb udis86
 sys-libs/glibc debug
 virtual/ffmpeg threads
 x11-base/xorg-server glamor xvfb
