@@ -15,6 +15,7 @@ app-editors/neovim
 app-editors/vim
 app-editors/vim-core
 app-emulation/docker
+app-emulation/playonlinux
 app-emulation/wine
 app-emulation/winetricks
 app-laptop/tlp
@@ -36,6 +37,7 @@ app-shells/bash-completion
 app-shells/fish
 app-shells/rust-zshcomp
 app-shells/zsh
+app-text/acroread
 app-text/diction
 app-text/htmltidy
 app-text/sloccount
@@ -68,6 +70,7 @@ dev-python/epydoc
 dev-python/flake8
 dev-python/gdmodule
 dev-python/jedi
+dev-python/jupyter
 dev-python/mako
 dev-python/matplotlib
 dev-python/pep8
@@ -75,6 +78,8 @@ dev-python/pip
 dev-python/psycopg
 dev-python/pylint
 dev-python/pyopenssl
+dev-python/pypy-bin
+dev-python/pypy3
 dev-python/pyxattr
 dev-python/skype4py
 dev-python/sphinx
@@ -124,15 +129,14 @@ dev-vcs/git
 dev-vcs/git-cola
 dev-vcs/git-flow
 dev-vcs/tig
+games-misc/cowsay
+games-misc/fortune-mod
 gnome-base/gdm
-gnome-extra/gnome-activity-journal
 gnome-extra/gnome-commander
 gnome-extra/gnome-contacts
 gnome-extra/gnome-documents
 gnome-extra/gnome-logs
 gnome-extra/gnome-power-manager
-gnome-extra/gnome-software
-gnome-extra/gnome-tweak-tool
 gnome-extra/gnome-utils
 gnome-extra/nautilus-actions
 gnome-extra/nautilus-tracker-tags
@@ -166,6 +170,7 @@ net-analyzer/iftop
 net-analyzer/traceroute
 net-dns/bind-tools
 net-dns/dnsmasq
+net-firewall/ebtables
 net-firewall/iptables
 net-fs/autofs
 net-fs/nfs-utils
@@ -221,10 +226,12 @@ sys-fs/mtools
 sys-fs/mtpfs
 sys-fs/ntfs3g
 sys-fs/udisks:2
+sys-fs/zfs
 sys-fs/zfs-kmod
 sys-kernel/gentoo-sources
 sys-kernel/git-sources
 sys-kernel/linux-firmware
+sys-kernel/spl
 sys-libs/glibc
 sys-libs/zlib
 sys-power/acpi_call
@@ -235,13 +242,13 @@ sys-process/atop
 sys-process/htop
 sys-process/iotop
 sys-process/lsof
+sys-process/nmon
 sys-process/time
 virtual/fortran
 virtual/jdk:1.8
 virtual/libc
 www-client/firefox-bin
 www-client/google-chrome-beta
-www-client/qutebrowser
 www-misc/profile-sync-daemon
 x11-apps/mesa-progs
 x11-base/xorg-server
@@ -253,6 +260,7 @@ x11-libs/wxGTK
 x11-misc/trayer
 x11-misc/x11vnc
 x11-misc/xclip
+x11-misc/xlockmore
 x11-terms/rxvt-unicode
 x11-terms/sakura
 x11-themes/gtk-engines-murrine
