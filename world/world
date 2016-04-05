@@ -20,7 +20,6 @@ app-misc/ltunify
 app-misc/rlwrap
 app-misc/tmux
 app-office/dia
-app-office/libreoffice
 app-portage/eix
 app-portage/euses
 app-portage/flaggie
