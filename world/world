@@ -131,15 +131,12 @@ games-misc/fortune-mod
 gnome-base/gdm
 gnome-extra/gnome-commander
 gnome-extra/gnome-contacts
-gnome-extra/gnome-documents
 gnome-extra/gnome-logs
 gnome-extra/gnome-power-manager
 gnome-extra/gnome-utils
 gnome-extra/nautilus-actions
-gnome-extra/nautilus-tracker-tags
 gnome-extra/nm-applet
 gnome-extra/seahorse-nautilus
-mail-client/geary
 mail-client/mutt
 mail-client/thunderbird-bin
 mail-filter/sieve-connect
@@ -161,7 +158,6 @@ media-libs/mesa
 media-libs/x264
 media-sound/alsa-utils
 media-sound/clementine
-media-sound/gnome-music
 media-sound/pavucontrol
 net-analyzer/iftop
 net-analyzer/traceroute

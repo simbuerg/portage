@@ -309,3 +309,7 @@ media-libs/libmediaart:2.0 -qt5
 # required by @selected
 # required by @world (argument)
 >=sys-libs/zlib-1.2.8-r1 minizip
+net-libs/libproxy -webkit
+gnome-base/nautilus -tracker
+media-plugins/grilo-plugins -tracker
+dev-libs/folks -tracker
