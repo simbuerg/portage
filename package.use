@@ -264,7 +264,7 @@ sys-devel/llvm clang gold lldb udis86
 sys-libs/glibc debug
 virtual/ffmpeg threads
 x11-base/xorg-server glamor xvfb
-x11-libs/cairo gles2 xlib-xcb
+x11-libs/cairo gles2 xlib-xcb opengl
 x11-libs/libxcb xkb
 x11-misc/nitrogen xinerama
 x11-terms/rxvt-unicode 256-color alt-font-width -blink -buffer-on-clear -fading-colors focused-urgency font-styles mousewheel perl startup-notification unicode3 -vanilla xft
@@ -312,4 +312,7 @@ media-libs/libmediaart:2.0 -qt5
 net-libs/libproxy -webkit
 gnome-base/nautilus -tracker
 media-plugins/grilo-plugins -tracker
-dev-libs/folks -tracker
+dev-libs/folks -tracker -zeitgeist
+app-office/libreoffice-bin -gnome
+media-libs/libcanberra alsa
+gnome-extra/evolution-data-server vala
