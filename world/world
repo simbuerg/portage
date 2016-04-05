@@ -251,7 +251,6 @@ x11-drivers/xf86-video-intel
 x11-libs/libgksu
 x11-libs/wxGTK
 x11-misc/trayer
-x11-misc/x11vnc
 x11-misc/xclip
 x11-misc/xlockmore
 x11-terms/rxvt-unicode
