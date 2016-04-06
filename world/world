@@ -156,7 +156,6 @@ media-libs/hal-flash
 media-libs/mesa
 media-libs/x264
 media-sound/alsa-utils
-media-sound/clementine
 media-sound/pavucontrol
 net-analyzer/iftop
 net-analyzer/traceroute
