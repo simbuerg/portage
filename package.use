@@ -67,9 +67,33 @@
 >=dev-ruby/power_assert-0.2.2 ruby_targets_ruby22
 >=dev-ruby/racc-1.4.12 ruby_targets_ruby22
 >=dev-ruby/rake-10.4.2 ruby_targets_ruby22
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by net-libs/webkit-gtk-2.10.8::gentoo
+# required by gnome-extra/gnome-documents-3.18.2-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/rake-11.1.2 ruby_targets_ruby23
 >=dev-ruby/rdoc-4.1.2 ruby_targets_ruby22
 >=dev-ruby/rubygems-2.4.5 ruby_targets_ruby22
+# required by virtual/rubygems-11::gentoo[ruby_targets_ruby23]
+# required by dev-ruby/rake-11.1.2::gentoo[ruby_targets_ruby23,-test]
+# required by dev-lang/ruby-2.1.9::gentoo
+# required by dev-ruby/test-unit-3.1.8::gentoo[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.2.4::gentoo
+# required by dev-ruby/minitest-5.8.4::gentoo[ruby_targets_ruby22]
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by net-libs/webkit-gtk-2.10.8::gentoo
+# required by gnome-extra/gnome-documents-3.18.2-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/rubygems-2.6.2 ruby_targets_ruby23
 >=dev-ruby/test-unit-3.0.9-r1 ruby_targets_ruby22
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by net-libs/webkit-gtk-2.10.8::gentoo
+# required by gnome-extra/gnome-documents-3.18.2-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/test-unit-3.1.8 ruby_targets_ruby23
 >=dev-util/pkgconfig-0.28-r2 abi_x86_32
 >=gnome-base/gnome-settings-daemon-3.12.3 policykit
 >=gnome-base/librsvg-2.40.9 abi_x86_32
@@ -133,12 +157,20 @@
 >=sys-devel/llvm-3.6.0 abi_x86_32
 >=sys-libs/gpm-1.20.7-r2 abi_x86_32
 >=sys-libs/libcap-2.22-r2 abi_x86_32
+# required by app-emulation/docker-1.10.3::gentoo[seccomp]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/libseccomp-2.3.0 static-libs
 >=sys-libs/ncurses-5.9-r3 abi_x86_32
 >=sys-libs/ntdb-1.0-r1 python
 >=sys-libs/readline-6.3_p8-r2 abi_x86_32
 >=sys-libs/tdb-1.3.4 python
 >=sys-libs/tevent-0.9.24 python
 >=sys-libs/zlib-1.2.8-r1 abi_x86_32
+# required by dev-lang/R-3.2.4::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/zlib-1.2.8-r1 minizip
 >=virtual/glu-9.0-r1 abi_x86_32
 >=virtual/jpeg-0-r2:0 abi_x86_32
 >=virtual/libffi-3.0.13-r1 abi_x86_32
@@ -152,6 +184,10 @@
 >=virtual/rubygems-8 ruby_targets_ruby22
 >=www-servers/apache-2.4.10-r1 apache2_modules_auth_digest
 >=x11-libs/cairo-1.14.2 abi_x86_32
+# required by app-office/libreoffice-5.1.1.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/cairo-1.14.6 -xlib-xcb
 >=x11-libs/fltk-1.3.3-r3 xft
 >=x11-libs/gdk-pixbuf-2.30.8 abi_x86_32
 >=x11-libs/gdk-pixbuf-2.30.8 jpeg
@@ -213,6 +249,7 @@ app-emulation/docker btrfs lxc vim-syntax
 app-emulation/libvirt qemu
 app-emulation/wine pipelight staging
 app-misc/tracker -eds
+app-office/libreoffice-bin -gnome
 app-portage/layman bazaar -darcs g-sorcery mercurial subversion sync-plugin-portage
 app-text/texlive-core xetex
 dev-db/mariadb -extraengine
@@ -224,6 +261,7 @@ dev-lang/php curl gd
 dev-lang/python sqlite
 dev-libs/boost static-libs
 dev-libs/elfutils static-libs
+dev-libs/folks -tracker -zeitgeist
 dev-libs/libpcre pcre16
 dev-libs/libpfm static-libs
 dev-libs/lzo static-libs
@@ -239,21 +277,29 @@ dev-util/perf -python -slang unwind
 dev-vcs/git -gtk -python subversion
 dev-vcs/subversion -dso perl
 gnome-base/gvfs fuse mtp samba
+gnome-base/nautilus -tracker
+gnome-extra/evolution-data-server vala
 kde-apps/dolphin-plugins git subversion
 kde-frameworks/kwallet gpg
 kde-plasma/plasma-meta -bluetooth networkmanager
 mail-client/mutt imap sidebar smtp
 media-gfx/imagemagick png
 media-libs/imlib2 X bzip2 -doc gif jpeg mp3 nls png -static-libs tiff zlib
+media-libs/libcanberra alsa
+media-libs/libmediaart:2.0 -qt5
 media-libs/mesa gallium gbm gles1 -llvm vdpau xa xvmc
 media-libs/phonon qt4
+media-plugins/grilo-plugins -tracker
 media-plugins/gst-plugins-meta aac alsa dvd flac mp3 ogg opus pulseaudio vorbis wavpack x264
 media-video/vlc -svg
 net-im/bitlbee gnutls libevent otr purple skype twitter
+net-libs/libmnl static-libs
+net-libs/libproxy -webkit
 net-misc/networkmanager connection-sharing
 net-misc/owncloud-client -dolphin qt5
 net-nds/openldap -berkdb -kerberos static-libs
 sci-mathematics/rstudio server
+sys-apps/iproute2 minimal
 sys-apps/systemd gcrypt lzma
 sys-apps/util-linux static-libs
 sys-block/gparted btrfs
@@ -264,7 +310,7 @@ sys-devel/llvm clang gold lldb udis86
 sys-libs/glibc debug
 virtual/ffmpeg threads
 x11-base/xorg-server glamor xvfb
-x11-libs/cairo gles2 xlib-xcb opengl
+x11-libs/cairo gles2 opengl xlib-xcb
 x11-libs/libxcb xkb
 x11-misc/nitrogen xinerama
 x11-terms/rxvt-unicode 256-color alt-font-width -blink -buffer-on-clear -fading-colors focused-urgency font-styles mousewheel perl startup-notification unicode3 -vanilla xft
@@ -272,47 +318,3 @@ x11-themes/qtcurve aqua kde qt5
 xfce-base/thunar exif libnotify
 xfce-base/xfwm4 -startup-notification
 xfce-extra/xfce4-sensors-plugin lm_sensors
-media-libs/libmediaart:2.0 -qt5
-# required by dev-lang/ruby-2.3.0::gentoo
-# required by net-libs/webkit-gtk-2.10.8::gentoo
-# required by gnome-extra/gnome-documents-3.18.2-r1::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-ruby/rake-11.1.2 ruby_targets_ruby23
-# required by virtual/rubygems-11::gentoo[ruby_targets_ruby23]
-# required by dev-ruby/rake-11.1.2::gentoo[ruby_targets_ruby23,-test]
-# required by dev-lang/ruby-2.1.9::gentoo
-# required by dev-ruby/test-unit-3.1.8::gentoo[ruby_targets_ruby21]
-# required by dev-lang/ruby-2.2.4::gentoo
-# required by dev-ruby/minitest-5.8.4::gentoo[ruby_targets_ruby22]
-# required by dev-lang/ruby-2.3.0::gentoo
-# required by net-libs/webkit-gtk-2.10.8::gentoo
-# required by gnome-extra/gnome-documents-3.18.2-r1::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-ruby/rubygems-2.6.2 ruby_targets_ruby23
-# required by dev-lang/ruby-2.3.0::gentoo
-# required by net-libs/webkit-gtk-2.10.8::gentoo
-# required by gnome-extra/gnome-documents-3.18.2-r1::gentoo
-# required by @selected
-# required by @world (argument)
->=dev-ruby/test-unit-3.1.8 ruby_targets_ruby23
-# required by app-emulation/docker-1.10.3::gentoo[seccomp]
-# required by @selected
-# required by @world (argument)
->=sys-libs/libseccomp-2.3.0 static-libs
-# required by app-office/libreoffice-5.1.1.3::gentoo
-# required by @selected
-# required by @world (argument)
->=x11-libs/cairo-1.14.6 -xlib-xcb
-# required by dev-lang/R-3.2.4::gentoo
-# required by @selected
-# required by @world (argument)
->=sys-libs/zlib-1.2.8-r1 minizip
-net-libs/libproxy -webkit
-gnome-base/nautilus -tracker
-media-plugins/grilo-plugins -tracker
-dev-libs/folks -tracker -zeitgeist
-app-office/libreoffice-bin -gnome
-media-libs/libcanberra alsa
-gnome-extra/evolution-data-server vala
