@@ -202,7 +202,6 @@ sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-auth/nss-mdns
 sys-block/gparted
-sys-block/open-iscsi
 sys-boot/efibootmgr
 sys-boot/unetbootin
 sys-devel/autogen

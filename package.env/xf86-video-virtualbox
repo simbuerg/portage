@@ -1,3 +1,6 @@
 >=x11-drivers/xf86-video-virtualbox-5.0.14 gcc.conf no-unused-parameter.conf o2.conf
 dev-libs/elfutils gcc.conf
 sys-libs/glibc gcc.conf
+media-libs/mesa gcc.conf
+dev-util/perf gcc.conf
+dev-cpp/cairomm gcc.conf
