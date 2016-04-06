@@ -316,3 +316,5 @@ dev-libs/folks -tracker -zeitgeist
 app-office/libreoffice-bin -gnome
 media-libs/libcanberra alsa
 gnome-extra/evolution-data-server vala
+net-libs/libmnl static-libs
+sys-apps/iproute2 minimal
