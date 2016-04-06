@@ -318,4 +318,8 @@ x11-themes/qtcurve aqua kde qt5
 xfce-base/thunar exif libnotify
 xfce-base/xfwm4 -startup-notification
 xfce-extra/xfce4-sensors-plugin lm_sensors
+media-gfx/fontforge png
+# required by dev-python/wxpython-3.0.2.0::gentoo
+# required by @preserved-rebuild (argument)
+>=x11-libs/wxGTK-3.0.2.0-r2 tiff
 sys-libs/ncurses tinfo
