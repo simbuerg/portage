@@ -33,7 +33,6 @@ app-shells/bash-completion
 app-shells/fish
 app-shells/rust-zshcomp
 app-shells/zsh
-app-text/acroread
 app-text/diction
 app-text/htmltidy
 app-text/sloccount
