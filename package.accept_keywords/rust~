@@ -1,5 +1,0 @@
-# required by dev-db/soci-3.2.3::gentoo
-# required by @selected
-# required by @world (argument)
-=dev-db/postgresql-9999 **
-=dev-util/cargo-bin-999 **

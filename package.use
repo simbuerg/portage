@@ -296,7 +296,7 @@ net-im/bitlbee gnutls libevent otr purple skype twitter
 net-libs/libmnl static-libs
 net-libs/libproxy -webkit
 net-misc/networkmanager connection-sharing
-net-misc/owncloud-client -dolphin qt5
+net-misc/owncloud-client -dolphin qt5 -qt4
 net-nds/openldap -berkdb -kerberos static-libs
 sci-mathematics/rstudio server
 sys-apps/iproute2 minimal

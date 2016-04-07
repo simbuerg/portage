@@ -1,0 +1,11 @@
+app-backup/snapper **
+dev-libs/msgpack **
+dev-python/snakeoil **
+sys-apps/pkgcore **
+sys-fs/btrfs-progs **
+app-editors/neovim **
+www-client/qutebrowser **
+# required by dev-db/soci-3.2.3::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-db/postgresql-9999 **
