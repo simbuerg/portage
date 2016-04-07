@@ -324,3 +324,4 @@ media-gfx/fontforge png
 >=x11-libs/wxGTK-3.0.2.0-r2 tiff
 sys-libs/ncurses tinfo
 dev-qt/qtwebkit:4 -exceptions
+media-libs/clutter gtk
