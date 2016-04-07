@@ -325,3 +325,17 @@ media-gfx/fontforge png
 sys-libs/ncurses tinfo
 dev-qt/qtwebkit:4 -exceptions
 media-libs/clutter gtk
+# required by media-sound/sound-juicer-3.18.2::gentoo
+# required by gnome-base/gnome-extra-apps-3.18.0-r1::gentoo
+# required by gnome-base/gnome-3.18.0::gentoo[extras]
+# required by gnome (argument)
+>=gnome-base/gvfs-1.28.0 cdda
+# required by net-misc/gnome-online-miners-3.14.3-r2::gentoo
+# required by gnome-extra/gnome-documents-3.18.3::gentoo
+# required by gnome-base/gnome-extra-apps-3.18.0-r1::gentoo[tracker]
+# required by gnome-base/gnome-3.18.0::gentoo[extras]
+# required by gnome (argument)
+>=dev-libs/libgdata-0.17.4-r1 gnome-online-accounts
+app-crypt/pinentry -qt4
+net-wireless/wpa_supplicant -qt4
+gnome-base/gnome-control-center bluetooth
