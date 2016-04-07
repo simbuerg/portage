@@ -276,7 +276,7 @@ dev-qt/qtsql mysql
 dev-util/perf -python -slang unwind
 dev-vcs/git -gtk -python subversion
 dev-vcs/subversion -dso perl
-gnome-base/gvfs fuse mtp samba
+gnome-base/gvfs fuse mtp samba udisks gtk
 gnome-base/nautilus -tracker
 gnome-extra/evolution-data-server vala
 kde-apps/dolphin-plugins git subversion
@@ -323,3 +323,4 @@ media-gfx/fontforge png
 # required by @preserved-rebuild (argument)
 >=x11-libs/wxGTK-3.0.2.0-r2 tiff
 sys-libs/ncurses tinfo
+dev-qt/qtwebkit:4 -exceptions
