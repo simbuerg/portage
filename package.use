@@ -339,3 +339,4 @@ media-libs/clutter gtk
 app-crypt/pinentry -qt4
 net-wireless/wpa_supplicant -qt4
 gnome-base/gnome-control-center bluetooth
+dev-python/PyQt5 webkit
