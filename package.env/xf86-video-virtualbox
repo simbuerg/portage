@@ -5,3 +5,4 @@ media-libs/mesa gcc.conf
 dev-util/perf gcc.conf
 dev-cpp/cairomm gcc.conf
 dev-cpp/glibmm gcc.conf
+media-libs/libraw gcc.conf
