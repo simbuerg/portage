@@ -340,3 +340,6 @@ app-crypt/pinentry -qt4
 net-wireless/wpa_supplicant -qt4
 gnome-base/gnome-control-center bluetooth
 dev-python/PyQt5 webkit
+# required by www-client/chromium-50.0.2661.66::gentoo
+# required by chromium (argument)
+>=dev-libs/libxml2-2.9.3 icu
