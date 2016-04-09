@@ -343,3 +343,8 @@ dev-python/PyQt5 webkit
 # required by www-client/chromium-50.0.2661.66::gentoo
 # required by chromium (argument)
 >=dev-libs/libxml2-2.9.3 icu
+# required by dev-qt/qtwebkit-4.8.7::gentoo[gstreamer]
+# required by net-im/skype-4.3.0.37-r6::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libxml2-2.9.3 -icu
