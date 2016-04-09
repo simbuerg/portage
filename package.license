@@ -8,3 +8,4 @@
 # required by google-chrome-beta (argument)
 >=www-client/google-chrome-beta-43.0.2357.37_p1 google-chrome
 >=www-client/google-chrome-unstable-44.0.2376.0_p1 google-chrome
+media-libs/mesa vmware
