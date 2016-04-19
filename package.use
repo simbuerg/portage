@@ -348,3 +348,7 @@ dev-python/PyQt5 webkit
 # required by @selected
 # required by @world (argument)
 >=dev-libs/libxml2-2.9.3 -icu
+# required by dev-qt/qt-creator-3.6.1::gentoo
+# required by qt-creator (argument)
+>=dev-libs/botan-1.10.12 threads
+dev-qt/qt-creator subversion git cmake python autotools valgrind clang

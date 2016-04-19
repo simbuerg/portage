@@ -8,6 +8,7 @@
 /etc/xdg/qtchooser/.keep_dev-qt_qtchooser-0 d41d8cd98f00b204e9800998ecf8427e
 /etc/pam.d/cups aaae6f936b34eb2edc7b61a6c02479e9
 /etc/conf.d/rpcbind 1ad5c8dcf432c8f23ba740f4c32a7c60
+/etc/conf.d/rstudio-server.conf 625d85dc3bef44e5c072856a6b47cb30
 /etc/conf.d/saslauthd 7ed968a4040d94525e1afbe267254c33
 /etc/systemd/logind.conf 6e1ee3291dea2880281c50b05932dd3e
 /etc/xdg/qtchooser/qt4-x86_64-pc-linux-gnu.conf 01053fa6366d1a393aa5288b2c6ae1e4
@@ -38,7 +39,7 @@
 /etc/conf.d/mysql 5cf932b24cac200ea27fba412682d9d6
 /etc/mysql/mysqlaccess.conf 1c49cbdee0aa247b06da56bb02e94e94
 /etc/conf.d/samba 3c3a8578e562dcb3cf6ffe29123b773f
-/etc/cups/client.conf e2d562ba1875ee3a16f6ccb10ab5961e
+/etc/conf.d/dhcrelay6 586a3ccc71627b40c83b8e1624afe0cf
 /etc/pam.d/polkit-1 038eb4e924b8027bfe852e63edb998de
 /etc/gpm/gpm-twiddler.conf 028060db81745e1ade8267ec5c190791
 /etc/conf.d/postgresql-9.6 a9b45e2890a54dbae7e45faaad8a31aa
@@ -48,7 +49,7 @@
 /etc/init.d/gpm 715551937c87e61bc69d781bc2a0e170
 /etc/ssh/sshd_config e8e07f67ccd5203cb27605779a1ab19f
 /etc/cups/ppd/.keep_net-print_cups-0 d41d8cd98f00b204e9800998ecf8427e
-/etc/conf.d/dhcrelay6 586a3ccc71627b40c83b8e1624afe0cf
+/etc/cups/client.conf e2d562ba1875ee3a16f6ccb10ab5961e
 /etc/locale.gen cbe30e840741d09fecff916084c90bd9
 /etc/ppp/options 300f139554327e63b13b44a2e3040ce0
 /etc/gpm/gpm-syn.conf 1d88c51413f8ba21ced13572892c5c91
