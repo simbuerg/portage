@@ -313,7 +313,7 @@ x11-base/xorg-server glamor xvfb
 x11-libs/cairo gles2 opengl xlib-xcb
 x11-libs/libxcb xkb
 x11-misc/nitrogen xinerama
-x11-terms/rxvt-unicode 256-color alt-font-width -blink -buffer-on-clear -fading-colors focused-urgency font-styles mousewheel perl startup-notification unicode3 -vanilla xft
+x11-terms/rxvt-unicode 256-color -alt-font-width -blink -buffer-on-clear -fading-colors focused-urgency font-styles mousewheel perl startup-notification unicode3 vanilla xft -secondary-wheel -wcwidth
 x11-themes/qtcurve aqua kde qt5
 xfce-base/thunar exif libnotify
 xfce-base/xfwm4 -startup-notification
