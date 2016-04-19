@@ -77,6 +77,7 @@ dev-python/pypy3
 dev-python/pyxattr
 dev-python/skype4py
 dev-python/sphinx
+dev-qt/qt-creator
 dev-qt/qtcore
 dev-qt/qtgui:4
 dev-qt/qtpositioning:5
