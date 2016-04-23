@@ -4,7 +4,6 @@ app-arch/deb2targz
 app-arch/sharutils
 app-arch/unrar
 app-arch/xarchiver
-app-backup/snapper
 app-benchmarks/bonnie++
 app-benchmarks/i7z
 app-crypt/gnupg
