@@ -180,6 +180,7 @@ net-misc/networkmanager-openvpn
 net-misc/openssh
 net-misc/owncloud-client
 net-misc/rdesktop
+net-misc/telnet-bsd
 net-misc/tightvnc
 net-misc/youtube-dl
 net-nntp/pan
@@ -189,6 +190,9 @@ sci-libs/scipy
 sci-mathematics/octave
 sci-mathematics/rstudio
 sci-misc/mendeleydesktop
+sec-policy/apparmor-profiles
+sys-apps/apparmor
+sys-apps/apparmor-utils
 sys-apps/fakeroot
 sys-apps/ipmitool
 sys-apps/likwid
