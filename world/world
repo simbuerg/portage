@@ -4,7 +4,6 @@ app-arch/deb2targz
 app-arch/sharutils
 app-arch/unrar
 app-arch/xarchiver
-app-backup/snapper
 app-benchmarks/bonnie++
 app-benchmarks/i7z
 app-crypt/gnupg
@@ -249,6 +248,7 @@ x11-drivers/xf86-input-synaptics
 x11-drivers/xf86-video-intel
 x11-libs/libgksu
 x11-libs/wxGTK
+x11-misc/synergy
 x11-misc/trayer
 x11-misc/xclip
 x11-misc/xlockmore
