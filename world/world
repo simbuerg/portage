@@ -184,6 +184,9 @@ net-misc/telnet-bsd
 net-misc/tightvnc
 net-misc/youtube-dl
 net-nntp/pan
+net-print/cups
+net-print/cups-filters
+net-print/foomatic-gui
 net-print/hplip
 net-print/kyocera-mita-ppds
 sci-libs/scipy
@@ -202,6 +205,7 @@ sys-apps/msr-tools
 sys-apps/pkgcore
 sys-apps/smartmontools
 sys-apps/systemd
+sys-apps/systemd-sysv-utils
 sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-auth/nss-mdns
