@@ -30,6 +30,7 @@
 /etc/conf.d/mit-krb5kdc 90be5190b6829b9cbc5860247ac7ab19
 /etc/conf.d/gpm 5968cb47e493e348cf289b0dd1990f4a
 /etc/conf.d/iptables 5e55e36231cc2bf92da1f30fdbba84b0
+/etc/systemd/system.conf a590f92d4aaaf2a848247ac1d40bea65
 /etc/conf.d/pciparm ef920c23349a80a5af86a5cc2851ce97
 /etc/X11/xinit/xinitrc ad14e8b6e2c010197486c33f82e2aa8e
 /etc/postfix/main.cf e7a0a3759cb0e0de3a14397ff6cfe67a
@@ -39,7 +40,7 @@
 /etc/conf.d/mysql 5cf932b24cac200ea27fba412682d9d6
 /etc/mysql/mysqlaccess.conf 1c49cbdee0aa247b06da56bb02e94e94
 /etc/conf.d/samba 3c3a8578e562dcb3cf6ffe29123b773f
-/etc/conf.d/dhcrelay6 586a3ccc71627b40c83b8e1624afe0cf
+/etc/cups/client.conf e2d562ba1875ee3a16f6ccb10ab5961e
 /etc/pam.d/polkit-1 038eb4e924b8027bfe852e63edb998de
 /etc/gpm/gpm-twiddler.conf 028060db81745e1ade8267ec5c190791
 /etc/conf.d/postgresql-9.6 a9b45e2890a54dbae7e45faaad8a31aa
@@ -49,7 +50,7 @@
 /etc/init.d/gpm 715551937c87e61bc69d781bc2a0e170
 /etc/ssh/sshd_config e8e07f67ccd5203cb27605779a1ab19f
 /etc/cups/ppd/.keep_net-print_cups-0 d41d8cd98f00b204e9800998ecf8427e
-/etc/cups/client.conf e2d562ba1875ee3a16f6ccb10ab5961e
+/etc/conf.d/dhcrelay6 586a3ccc71627b40c83b8e1624afe0cf
 /etc/locale.gen cbe30e840741d09fecff916084c90bd9
 /etc/ppp/options 300f139554327e63b13b44a2e3040ce0
 /etc/gpm/gpm-syn.conf 1d88c51413f8ba21ced13572892c5c91
