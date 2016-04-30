@@ -277,6 +277,7 @@ dev-util/perf -python -slang unwind
 dev-vcs/git -gtk -python subversion
 dev-vcs/subversion -dso perl
 gnome-base/gvfs fuse mtp samba udisks gtk
+gnome-base/nautilus -tracker
 gnome-extra/evolution-data-server vala
 kde-apps/dolphin-plugins git subversion
 kde-frameworks/kwallet gpg
@@ -288,6 +289,7 @@ media-libs/libcanberra alsa
 media-libs/libmediaart:2.0 -qt5
 media-libs/mesa gallium gbm gles1 -llvm vdpau xa xvmc
 media-libs/phonon qt4
+media-plugins/grilo-plugins -tracker
 media-plugins/gst-plugins-meta aac alsa dvd flac mp3 ogg opus pulseaudio vorbis wavpack x264
 media-video/vlc -svg
 net-im/bitlbee gnutls libevent otr purple skype twitter
@@ -360,3 +362,11 @@ net-print/cups zeroconf
 # required by cups (argument)
 >=net-dns/avahi-0.6.32 abi_x86_32
 net-print/cups-filters zeroconf
+# required by app-editors/neovim-0.1.4::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-lua/lpeg-1.0.0-r1 luajit
+# required by app-editors/neovim-0.1.4::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-lua/mpack-1.0.2 luajit

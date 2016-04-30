@@ -23,13 +23,14 @@
 /etc/conf.d/nfs baa6a40a4730fd9203c9dbd3384e1560
 /etc/conf.d/dhcpd 026570f93fe76d2cdb0bbe6782b3ea5a
 /etc/conf.d/device-mapper 0e06961de6c24824f6fb37f8f45ce925
-/etc/bitlbee/bitlbee.conf ef05545b8b08f0d5d06d63119f302212
+/etc/init.d/mysql d513b63bf47da95e51675de0f00be406
 /etc/distcc/hosts c82fea71506e033f9b884b9d88f3ed9b
 /etc/dbus-1/system.d/cups.conf d5468770ee5bfc22bc8ab67da1078b30
 /etc/sudoers b679ac5d1611aa9ca815224b457b2341
 /etc/conf.d/mit-krb5kdc 90be5190b6829b9cbc5860247ac7ab19
 /etc/conf.d/gpm 5968cb47e493e348cf289b0dd1990f4a
 /etc/conf.d/iptables 5e55e36231cc2bf92da1f30fdbba84b0
+/etc/systemd/system.conf a590f92d4aaaf2a848247ac1d40bea65
 /etc/conf.d/pciparm ef920c23349a80a5af86a5cc2851ce97
 /etc/X11/xinit/xinitrc ad14e8b6e2c010197486c33f82e2aa8e
 /etc/postfix/main.cf e7a0a3759cb0e0de3a14397ff6cfe67a
@@ -65,7 +66,6 @@
 /etc/hosts 55f31266cf1f992ea7649bb81570f9e6
 /etc/conf.d/nfsclient 010009373d6ba5d7270cc93d3108ea77
 /etc/conf.d/mit-krb5kadmind b6b95385e5fd734870338ee2be284a4e
-/etc/conf.d/snapper a17673926b730c79fd8d9abfca41480c
 /etc/gtk-3.0/im-multipress.conf c358838e1789c1d4e6da7f525fc922cf
 /etc/xml/.keep_app-text_docbook-xml-dtd-4.5 d41d8cd98f00b204e9800998ecf8427e
 /etc/logrotate.d/mysql 39e0729897ff320c86785781413b367a
@@ -84,7 +84,7 @@
 /etc/conf.d/smartd 371cdb7cc9dc924b6d12224d66b193c6
 /etc/init.d/iptables 979cda3013f644988fb2e6dd67e07f2b
 /etc/conf.d/cronie bf644ac15632af6a3788e5de7be13080
-/etc/init.d/mysql d513b63bf47da95e51675de0f00be406
+/etc/bitlbee/bitlbee.conf ef05545b8b08f0d5d06d63119f302212
 /etc/gtk-3.0/settings.ini cc792a424d1e6b9fca27c353435f97ff
 /etc/conf.d/docker f2b46b4d972583d50833ead732a2337b
 /etc/init.d/git-daemon 62bf5f7528119d66bcb0b938a89f43ec
