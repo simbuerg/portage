@@ -360,3 +360,11 @@ net-print/cups zeroconf
 # required by cups (argument)
 >=net-dns/avahi-0.6.32 abi_x86_32
 net-print/cups-filters zeroconf
+# required by app-editors/neovim-0.1.4::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-lua/lpeg-1.0.0-r1 luajit
+# required by app-editors/neovim-0.1.4::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-lua/mpack-1.0.2 luajit

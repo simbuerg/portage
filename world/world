@@ -214,8 +214,10 @@ sys-block/open-iscsi
 sys-boot/efibootmgr
 sys-boot/unetbootin
 sys-devel/autogen
+sys-devel/clang
 sys-devel/distcc
 sys-devel/gdb
+sys-devel/llvm
 sys-firmware/bluez-firmware
 sys-fs/btrfs-progs
 sys-fs/dosfstools
@@ -246,6 +248,7 @@ sys-process/time
 virtual/fortran
 virtual/jdk:1.8
 virtual/libc
+virtual/service-manager
 www-client/firefox-bin
 www-client/google-chrome-beta
 www-misc/profile-sync-daemon
