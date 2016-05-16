@@ -14,6 +14,7 @@ app-editors/neovim
 app-editors/vim
 app-editors/vim-core
 app-emulation/docker
+app-emulation/virtualbox-guest-additions
 app-laptop/tlp
 app-misc/ltunify
 app-misc/rlwrap
@@ -219,7 +220,6 @@ sys-devel/distcc
 sys-devel/gdb
 sys-devel/llvm
 sys-firmware/bluez-firmware
-sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-fs/fuse
 sys-fs/mtools
