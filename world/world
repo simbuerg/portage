@@ -210,7 +210,6 @@ sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-auth/nss-mdns
 sys-block/gparted
-sys-block/open-iscsi
 sys-boot/efibootmgr
 sys-boot/unetbootin
 sys-devel/autogen
@@ -219,7 +218,6 @@ sys-devel/distcc
 sys-devel/gdb
 sys-devel/llvm
 sys-firmware/bluez-firmware
-sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-fs/fuse
 sys-fs/mtools
