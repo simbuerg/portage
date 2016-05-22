@@ -248,7 +248,7 @@ app-editors/vim acl lua luajit perl python ruby
 app-emulation/docker btrfs lxc vim-syntax
 app-emulation/libvirt qemu
 app-emulation/wine pipelight staging
-app-misc/tracker -eds
+app-misc/tracker -eds gstreamer -ffmpeg
 app-office/libreoffice-bin -gnome
 app-portage/layman bazaar -darcs g-sorcery mercurial subversion sync-plugin-portage
 app-text/texlive-core xetex
@@ -370,3 +370,23 @@ net-print/cups-filters zeroconf
 # required by @selected
 # required by @world (argument)
 >=dev-lua/mpack-1.0.2 luajit
+media-video/openshot python_single_target_python3_4
+# required by media-libs/libopenshot-0.1.1::gentoo[libav]
+# required by media-video/openshot-2.0.7-r1::gentoo
+# required by openshot (argument)
+>=media-video/libav-11.6 vpx theora
+# required by media-libs/libopenshot-0.1.1::gentoo
+# required by media-video/openshot-2.0.7-r1::gentoo
+# required by openshot (argument)
+>=dev-qt/qtmultimedia-5.6.0 widgets
+# required by media-video/openshot-2.0.7-r1::gentoo
+# required by openshot (argument)
+>=media-libs/libopenshot-0.1.1 python_single_target_python3_4
+media-video/pitivi python_single_target_python3_4
+# required by media-libs/libopenshot-0.1.1::gentoo[-libav]
+# required by libopenshot (argument)
+>=media-video/ffmpeg-2.8.7 vpx theora
+# required by media-video/openshot-1.4.3-r1::gentoo
+# required by openshot:0 (argument)
+>=media-libs/mlt-6.2.0 python frei0r
+media-libs/mlt -opengl

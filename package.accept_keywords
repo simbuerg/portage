@@ -9,3 +9,6 @@ www-client/qutebrowser **
 # required by @selected
 # required by @world (argument)
 =dev-db/postgresql-9999 **
+sys-kernel/spl **
+sys-fs/zfs-kmod **
+sys-fs/zfs **
