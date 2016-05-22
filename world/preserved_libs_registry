@@ -8,7 +8,7 @@
     ], 
     "dev-haskell/aeson:0": [
         "dev-haskell/aeson-0.9.0.1", 
-        "1460156175", 
+        "1460156231", 
         [
             "/usr/lib64/aeson-0.9.0.1/ghc-7.10.3/libHSaeson-0.9.0.1-L6N9bqGrriM1DGiNEqYKoS-ghc7.10.3.so"
         ]
@@ -109,6 +109,13 @@
         "1460156177", 
         [
             "/usr/lib64/highlighting-kate-0.6.1/ghc-7.10.3/libHShighlighting-kate-0.6.1-JxgqZqgfAlL7pJSspzI75d-ghc7.10.3.so"
+        ]
+    ], 
+    "dev-haskell/http-client-tls:0": [
+        "dev-haskell/http-client-tls-0.2.4", 
+        "1460156192", 
+        [
+            "/usr/lib64/http-client-tls-0.2.2/ghc-7.10.3/libHShttp-client-tls-0.2.2-DFqeFJxxPua3i5oUZAL3Sm-ghc7.10.3.so"
         ]
     ], 
     "dev-haskell/http-client:0": [
@@ -279,9 +286,23 @@
             "/usr/lib64/zip-archive-0.2.3.7/ghc-7.10.3/libHSzip-archive-0.2.3.7-DksCHXDTW9L2otEkAAFsbz-ghc7.10.3.so"
         ]
     ], 
+    "dev-libs/boost:0": [
+        "dev-libs/boost-1.61.0", 
+        "1460156227", 
+        [
+            "/usr/lib64/libboost_date_time.so.1.60.0", 
+            "/usr/lib64/libboost_filesystem.so.1.60.0", 
+            "/usr/lib64/libboost_iostreams.so.1.60.0", 
+            "/usr/lib64/libboost_program_options.so.1.60.0", 
+            "/usr/lib64/libboost_regex.so.1.60.0", 
+            "/usr/lib64/libboost_signals.so.1.60.0", 
+            "/usr/lib64/libboost_system.so.1.60.0", 
+            "/usr/lib64/libboost_thread.so.1.60.0"
+        ]
+    ], 
     "net-libs/gnutls:0": [
-        "net-libs/gnutls-3.4.11", 
-        "1460156108", 
+        "net-libs/gnutls-3.4.12", 
+        "1460156385", 
         [
             "/usr/lib32/libgnutls.so.28.41.14", 
             "/usr/lib64/libgnutls.so.28.41.14", 

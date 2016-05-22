@@ -14,6 +14,7 @@ app-editors/neovim
 app-editors/vim
 app-editors/vim-core
 app-emulation/docker
+app-emulation/playonlinux
 app-emulation/virtualbox-guest-additions
 app-laptop/tlp
 app-misc/ltunify
@@ -27,6 +28,7 @@ app-portage/gentoolkit
 app-portage/layman
 app-portage/mirrorselect
 app-portage/portage-utils
+app-portage/repoman
 app-portage/smart-live-rebuild
 app-shells/bash
 app-shells/bash-completion
@@ -216,6 +218,7 @@ sys-boot/unetbootin
 sys-devel/autogen
 sys-devel/clang
 sys-devel/distcc
+sys-devel/gcc:4.9.3
 sys-devel/gdb
 sys-devel/llvm
 sys-firmware/bluez-firmware

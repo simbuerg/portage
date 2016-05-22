@@ -9,3 +9,7 @@ www-client/qutebrowser **
 # required by @selected
 # required by @world (argument)
 =dev-db/postgresql-9999 **
+# required by dev-db/soci-3.2.3::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-db/postgresql-9.6_beta1 **
