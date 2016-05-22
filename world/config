@@ -23,7 +23,7 @@
 /etc/conf.d/nfs baa6a40a4730fd9203c9dbd3384e1560
 /etc/conf.d/dhcpd 026570f93fe76d2cdb0bbe6782b3ea5a
 /etc/conf.d/device-mapper 0e06961de6c24824f6fb37f8f45ce925
-/etc/init.d/mysql d513b63bf47da95e51675de0f00be406
+/etc/bitlbee/bitlbee.conf ef05545b8b08f0d5d06d63119f302212
 /etc/distcc/hosts c82fea71506e033f9b884b9d88f3ed9b
 /etc/dbus-1/system.d/cups.conf d5468770ee5bfc22bc8ab67da1078b30
 /etc/sudoers b679ac5d1611aa9ca815224b457b2341
@@ -40,17 +40,16 @@
 /etc/conf.d/mysql 5cf932b24cac200ea27fba412682d9d6
 /etc/mysql/mysqlaccess.conf 1c49cbdee0aa247b06da56bb02e94e94
 /etc/conf.d/samba 3c3a8578e562dcb3cf6ffe29123b773f
-/etc/cups/client.conf e2d562ba1875ee3a16f6ccb10ab5961e
+/etc/conf.d/dhcrelay6 586a3ccc71627b40c83b8e1624afe0cf
 /etc/pam.d/polkit-1 038eb4e924b8027bfe852e63edb998de
 /etc/gpm/gpm-twiddler.conf 028060db81745e1ade8267ec5c190791
-/etc/conf.d/postgresql-9.6 a9b45e2890a54dbae7e45faaad8a31aa
 /etc/conf.d/lvm 033f347f15dc2c257689340fb5bab356
 /etc/X11/Sessions/Gnome 3965f9f4a398b1491790db8d43e79d5a
 /etc/conf.d/dhcrelay e1892c0862c9b2cdcfbf68bb6d8992de
 /etc/init.d/gpm 715551937c87e61bc69d781bc2a0e170
 /etc/ssh/sshd_config e8e07f67ccd5203cb27605779a1ab19f
 /etc/cups/ppd/.keep_net-print_cups-0 d41d8cd98f00b204e9800998ecf8427e
-/etc/conf.d/dhcrelay6 586a3ccc71627b40c83b8e1624afe0cf
+/etc/cups/client.conf e2d562ba1875ee3a16f6ccb10ab5961e
 /etc/locale.gen cbe30e840741d09fecff916084c90bd9
 /etc/ppp/options 300f139554327e63b13b44a2e3040ce0
 /etc/gpm/gpm-syn.conf 1d88c51413f8ba21ced13572892c5c91
@@ -84,7 +83,7 @@
 /etc/conf.d/smartd 371cdb7cc9dc924b6d12224d66b193c6
 /etc/init.d/iptables 979cda3013f644988fb2e6dd67e07f2b
 /etc/conf.d/cronie bf644ac15632af6a3788e5de7be13080
-/etc/bitlbee/bitlbee.conf ef05545b8b08f0d5d06d63119f302212
+/etc/init.d/mysql d513b63bf47da95e51675de0f00be406
 /etc/gtk-3.0/settings.ini cc792a424d1e6b9fca27c353435f97ff
 /etc/conf.d/docker f2b46b4d972583d50833ead732a2337b
 /etc/init.d/git-daemon 62bf5f7528119d66bcb0b938a89f43ec
