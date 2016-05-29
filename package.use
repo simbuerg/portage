@@ -127,12 +127,6 @@
 >=media-libs/mesa-10.5.2 abi_x86_32
 >=media-libs/mesa-11.0.0_rc3 wayland
 >=media-libs/mlt-0.9.0 ffmpeg -kde melt -qt4
->=media-libs/phonon-4.8.3 designer
->=media-libs/phonon-4.8.3 qt5
->=media-libs/phonon-9999 qt4
->=media-libs/phonon-gstreamer-4.8.2 qt5
->=media-libs/phonon-vlc-0.8.2 qt5
->=media-libs/phonon-vlc-9999 qt4
 >=media-libs/tiff-4.0.3-r6 abi_x86_32
 >=media-plugins/alsa-plugins-1.0.29 abi_x86_32
 >=media-plugins/grilo-plugins-0.2.13 tracker

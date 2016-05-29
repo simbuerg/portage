@@ -1,4 +1,5 @@
 app-admin/logrotate
+app-admin/pwgen
 app-admin/sudo
 app-arch/deb2targz
 app-arch/sharutils
@@ -43,7 +44,6 @@ app-vim/rust-mode
 dev-cpp/gtest
 dev-db/pgadmin3
 dev-db/postgresql
-dev-db/soci
 dev-lang/R
 dev-lang/ghc
 dev-lang/go

@@ -1,1 +1,2 @@
 >=sys-fs/udev-init-scripts-28
+=dev-db/postgresql-9999
