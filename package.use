@@ -332,7 +332,7 @@ media-libs/clutter gtk
 >=dev-libs/libgdata-0.17.4-r1 gnome-online-accounts
 app-crypt/pinentry -qt4
 net-wireless/wpa_supplicant -qt4
-gnome-base/gnome-control-center bluetooth
+gnome-base/gnome-control-center bluetooth networkmanager
 dev-python/PyQt5 webkit
 # required by www-client/chromium-50.0.2661.66::gentoo
 # required by chromium (argument)
