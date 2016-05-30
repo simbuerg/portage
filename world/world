@@ -10,6 +10,7 @@ app-benchmarks/i7z
 app-crypt/gnupg
 app-crypt/seahorse
 app-doc/doxygen
+app-editors/atom
 app-editors/gvim
 app-editors/neovim
 app-editors/vim
