@@ -384,21 +384,15 @@ media-video/pitivi python_single_target_python3_4
 # required by openshot:0 (argument)
 >=media-libs/mlt-6.2.0 python frei0r
 media-libs/mlt -opengl
+dev-qt/qtwebkit icu
 # required by app-editors/atom-1.7.4-r1::gentoo
 # required by app-editors/atom (argument)
 =dev-libs/libgit2-0.23.4 ssh
-# required by dev-util/electron-0.36.12-r1::gentoo
-# required by app-editors/atom-1.7.4-r1::gentoo
-# required by app-editors/atom (argument)
->=dev-libs/libxml2-2.9.4 icu
 # required by dev-util/electron-0.36.12-r1::gentoo[system-ffmpeg]
 # required by app-editors/atom-1.7.4-r1::gentoo
 # required by app-editors/atom (argument)
 >=media-video/ffmpeg-2.8.7 opus
-dev-util/electron -proprietary-codecs
 # required by dev-util/electron-0.36.12-r1::gentoo
 # required by app-editors/atom-1.7.4-r1::gentoo
 # required by app-editors/atom (argument)
-=dev-libs/libxml2-2.9.3 icu
-dev-libs/libxml2 icu
-dev-qt/qtwebkit icu
+>=dev-libs/libxml2-2.9.3 icu
